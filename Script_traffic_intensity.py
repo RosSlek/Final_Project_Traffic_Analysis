@@ -6,14 +6,14 @@ import time
 import schedule
 import urllib.parse
 
+############### Colecting Data ###############
+
 token = "d23887006fb8447988a41075801339c913f1d71a0fd"
 targetUrl = "https://eismoinfo.lt/traffic-intensity-service"
 
 encoded_url = urllib.parse.quote(targetUrl)
 url = "http://api.scrape.do?token={}&url={}".format(token, encoded_url)
 response = requests.request("GET", url)
-
-############### Colecting Data ###############
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36",
@@ -26,9 +26,10 @@ headers = {
 url = "https://eismoinfo.lt/traffic-intensity-service"
 
 page = requests.get(url, headers = headers)
-print(page.status_code)
-
+# print(page.status_code)
 data = page.json()
+
+############### Creating DataFrames ###############
 
 direction_positive = []
 direction_negative = []
@@ -48,11 +49,11 @@ df_info = pd.DataFrame(data)
 df_positive = pd.DataFrame(direction_positive)
 df_negative = pd.DataFrame(direction_negative)
 
-print(df_info)
-print("#########################33")
-print(df_positive)
-print("#########################33")
-print(df_negative)
+# print(df_info)
+# print(df_positive)
+# print(df_negative)
+
+############### DataFrame Clearance ###############
 
 df_info['Date'] = df_info['date'].str.split(pat='.', n=0, expand=True)[0]
 df_info['Date'] = df_info['Date'].str.replace('T', ' ')
@@ -77,5 +78,9 @@ df_negative.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'su
 df_negative.rename(columns={'direction': 'Direction_Negative', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
 print(df_negative)
 
+############### Joining DataFrames ###############
+
 general = pd.concat([df_info, df_negative, df_positive], axis=1)
 general.to_csv("Road_Traffic_intensity.csv", index=False)
+
+###############  ###############
