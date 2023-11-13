@@ -68,19 +68,15 @@ df_info.drop(columns=['id', 'km', 'x', 'y', 'roadSegments', 'timeInterval', 'dat
 df_info.rename(columns={'name': 'Location', 'roadNr': 'Road', 'roadName': 'Road_Name'}, inplace=True)
 df_info['Road_Name'] = df_info['Road_Name'].str.replace('*', '')
 
-print(df_info)
-print("###########################################################")
 df_positive.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
 df_positive.rename(columns={'direction': 'Direction_Positive', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
-print(df_positive)
-print("###########################################################")
+
 df_negative.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
 df_negative.rename(columns={'direction': 'Direction_Negative', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
-print(df_negative)
 
 ############### Joining DataFrames ###############
 
 general = pd.concat([df_info, df_negative, df_positive], axis=1)
-general.to_csv("Road_Traffic_intensity.csv", index=False)
+general.to_csv("Road_Traffic_intensity_real_time.csv", index=False)
 
 ###############  ###############
