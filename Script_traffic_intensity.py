@@ -4,6 +4,16 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import time
 import schedule
+import urllib.parse
+
+
+
+token = "d23887006fb8447988a41075801339c913f1d71a0fd"
+targetUrl = "https://eismoinfo.lt/traffic-intensity-service"
+
+encoded_url = urllib.parse.quote(targetUrl)
+url = "http://api.scrape.do?token={}&url={}".format(token, encoded_url)
+response = requests.request("GET", url)
 
 ############### Colecting Data ###############
 
@@ -21,47 +31,54 @@ page = requests.get(url)
 # headers = headers)
 print(page.status_code)
 data = page.json()
-#
-# print(data)
+
 list = []
-x = 0
 for i in range(len(data)):
     data1 = page.json()[i]['roadSegments']
-    print(data1[0])
-print(data1)
-print(type(data1))
-print(len(data1))
-# list.append(data1)
+    list.append(data1)
 
-# print(list)
+print(list)
+print("########################################################################3")
+print(len(list))
 
+direction_negative = []
+direction_positive = []
+for x in range(len(list)):
+    data2 = list[x][0]
+    # data3 = list[x][1]
+    direction_negative.append(data2)
+    # direction_positive.append(data3)
 
-# df3 = pd.DataFrame(list)
-# print(df3)
-# for i in range():
-#     data1 = page.json()["data"]["itemMatrix"][i][0]["value"]
-# df1 = pd.DataFrame(data)
-# print(data)
-# traffic = []
-# for i in range(len(data)):
-#     df2 = data[i]['roadSegments']
-#     # traffic.append(df2)
-# df3 = pd.DataFrame(df2)
-# print(df3)
+print(direction_negative)
+print("3333333333333333333333333333333333333333333333333333333333333333")
+# print(direction_positive)
 
-
-
-
-# df1.drop(columns=['id', 'name', 'roadName', 'km', 'x', 'y', 'timeInterval'], inplace=True)
+# df_info = pd.DataFrame(data)
+# df_negative = pd.DataFrame(direction_negative)
+# df_positive = pd.DataFrame(direction_positive)
 #
-# df1.to_csv("Road_traffic_intensity.csv", index=False)
-
-# df1.rename(columns={'id': 'Measuring_Station_ID', 'color': 'Traffic_Intensity'}, inplace=True)
-# print(df1)
-# df = pd.read_csv('Road_info_real_time.csv')
-# # print(df)
-# df3 = pd.merge(df, df1, on='Measuring_Station_ID', how='left')
-# print(df3)
+# df_info['Date'] = df_info['date'].str.split(pat='.', n=0, expand=True)[0]
+# df_info['Date'] = df_info['Date'].str.replace('T', ' ')
 #
-# df3 = pd.read_csv('Road_traffic_intensity.csv')
-# print(df3)
+# df_info['Date'] = pd.to_datetime(df_info['Date'])
+# df_info['Date'] = df_info['Date'] + pd.Timedelta(hours=2)
+#
+# df_info['Date'] = pd.to_datetime(df_info['Date']).dt.date
+# df_info['Time'] = pd.to_datetime(df_info['Date']).dt.time
+#
+# df_info.drop(columns=['id', 'km', 'x', 'y', 'roadSegments', 'timeInterval', 'date'], inplace=True)
+# df_info.rename(columns={'name': 'Location', 'roadNr': 'Road', 'roadName': 'Road_Name'}, inplace=True)
+#df_info['Road_Name'] = df_info['Road_Name'].str.replace('*', '')
+
+# print(df_info)
+# print("###########################################################")
+# df_positive.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
+# df_positive.rename(columns={'direction': 'Direction_Positive', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
+# print(df_positive)
+# print("###########################################################")
+# df_negative.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
+# df_negative.rename(columns={'direction': 'Direction_Negative', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
+# print(df_negative)
+#
+# general = pd.concat([df_info, df_negative, df_positive], axis=1)
+# general.to_csv("Road_Traffic_intensity.csv", index=False)
