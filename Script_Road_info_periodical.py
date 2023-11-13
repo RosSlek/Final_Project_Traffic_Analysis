@@ -56,7 +56,7 @@ schedule.every().day.at("21:15").do(script_info_periodially)
 
 while True:
     schedule.run_pending()
+    # time.sleep(50)
     time.sleep(21600)
-
 
 

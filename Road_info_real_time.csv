@@ -1,137 +1,137 @@
-Measuring_Station_ID,Location,Road_Name,Road,Air_Temperature,Wind_Speed,Wind_Direction,Precipitation_Type,Precipitation_Intensity,Road_Surface_Temperature,Dew_point,Road_Surface_Condition,Friction,Date,Time
-7032,KIZ_A1_51.82-KOS,Vilnius–Kaunas–Klaipėda,A1,5.2,4.6,Vakarų,Nėra,0.0,6.1,3.7,Šlapia,0.7,2023-11-13,11:25:05
-7012,KIZ_A1_28.96,Vilnius–Kaunas–Klaipėda,A1,5.1,4.2,Pietvakarių,Nėra,0.0,5.5,3.75,Šlapia,0.68,2023-11-13,11:25:05
-6950,KIZ_A1_70.29-KOS,Vilnius–Kaunas–Klaipėda,A1,5.4,6.0,Vakarų,Nėra,0.0,6.0,3.73,Drėgna,0.82,2023-11-13,11:25:04
-7336,"KOS A5 55,62 km",Kaunas–Marijampolė–Suvalkai,A5,6.8,4.2,Vakarų,"Lietus, silpnas",0.06,8.4,3.59,Sausa,0.82,2023-11-13,11:24:06
-7335,"KOS A5 44,48 km",Kaunas–Marijampolė–Suvalkai,A5,5.7,3.9,,,0.0,6.6,3.54,Sausa,0.82,2023-11-13,11:24:06
-7334,"KOS A5 40,65 km",Kaunas–Marijampolė–Suvalkai,A5,5.7,7.5,,,0.0,6.7,3.71,Šlapia,0.8,2023-11-13,11:24:06
-7332,"KOS A5 21,86 km",Kaunas–Marijampolė–Suvalkai,A5,5.0,5.1,Šiaurės vakarų,,0.0,6.1,3.96,Šlapia,0.81,2023-11-13,11:24:05
-7331,"KOS A5 12,2 km",Kaunas–Marijampolė–Suvalkai,A5,5.1,4.3,,,0.0,6.6,3.6,Sausa,0.82,2023-11-13,11:24:05
-7081,KIZ_A1_91.35_KOS,Vilnius–Kaunas–Klaipėda,A1,5.9,2.7,Vakarų,Nėra,0.0,6.8,3.57,Sausa,0.82,2023-11-13,11:25:05
-6551,Ausieniškės,Vilnius–Kaunas–Klaipėda,A1,5.4,5.3,Vakarų,,,5.7,3.73,Šlapia,0.73,2023-11-13,11:25:00
-2601,Levaniškiai,Ukmergė–Raguva–Nevėžis,174,5.0,4.3,Vakarų,,,6.2,4.12,Šlapia,0.72,2023-11-13,11:21:53
-2522,Jakai į Klaipėdą 2,A01_304.760_02 (Jakų sankr.),0001090002,6.2,,,,,5.2,,Šlapia,0.78,2023-11-13,11:25:00
-3941,Žemieji Svirnai,Radiškis–Anykščiai–Rokiškis,120,5.9,2.1,Šiaurės vakarų,"Lietus, silpnas",0.39,,4.86,Šlapia,0.66,2023-11-13,11:22:24
-3961,Svirkančiai,Užventis–Tryškiai–Viekšniai,194,5.6,3.6,Vakarų,,0.0,,4.25,Šlapia,0.81,2023-11-13,11:22:25
-3962,Linkuva,Pakruojis–Linkuva,151,5.8,5.0,Vakarų,Nėra,0.0,6.1,4.76,Šlapia,0.81,2023-11-13,11:22:27
-3981,Verkšionys,Vievis–Maišiagala–Nemenčinė,108,5.0,,,Nėra,0.0,,4.12,Šlapia,0.78,2023-11-13,11:22:27
-4001,Paluknys,Vilnius–Varėna–Gardinas,A4,4.8,,,Nėra,0.0,5.8,3.92,Šlapia,0.72,2023-11-13,11:22:27
-4021,Galvė,Vilniaus pietinis aplinkkelis,A19,4.9,3.3,Vakarų,,,5.6,3.71,Šlapia,0.81,2023-11-13,11:22:29
-2902,Pastruikiškės,Šiauliai–Palanga,A11,5.7,5.2,Šiaurės,Nėra,0.0,6.5,3.04,Sausa,0.82,2023-11-13,11:22:00
-2903,Pyšna,Vilnius–Lyda,A15,4.4,1.4,Pietų,,,5.6,3.97,Šlapia,0.76,2023-11-13,11:22:01
-2727,Raudondvario pl.,Kaunas–Marijampolė–Suvalkai,A5,5.7,,,,,7.2,3.71,Sausa,0.82,2023-11-13,11:25:00
-3481,Gruzdžiai,Šiauliai–Gruzdžiai–Naujoji Akmenė,154,5.1,4.3,Šiaurės vakarų,"Lietus, silpnas",0.64,,4.06,Šlapia,0.77,2023-11-13,11:22:13
-3821,Dubos,Vilnius–Panevėžys,A2,5.0,1.8,Šiaurės vakarų,"Lietus, silpnas",0.07,6.7,4.12,Šlapia,0.78,2023-11-13,11:25:00
-5210,Bernatoniai,Panevėžio aplinkkelis,A17,5.3,4.3,Šiaurės vakarų,Dulksna,0.48,6.2,3.48,Šlapia,0.75,2023-11-13,11:25:00
-5351,Vilnius,Vilnius–Kaunas–Klaipėda,A1,4.8,1.6,Vakarų,Nėra,0.0,6.2,4.07,Šlapia,0.78,2023-11-13,11:23:10
-5352,Vilijampolė,Kaunas–Marijampolė–Suvalkai,A5,5.6,4.4,Vakarų,Nėra,0.0,7.2,3.61,Sausa,0.82,2023-11-13,11:23:10
-2582,Giedraičiai,Vilnius–Utena,A14,5.2,,Pietvakarių,Nėra,0.0,,4.16,Šlapia,0.79,2023-11-13,11:21:52
-2581,Grateliai,Kėdainiai–Šėta–Ukmergė,145,5.9,7.6,Vakarų,Nėra,0.0,6.3,4.23,Sausa,0.82,2023-11-13,11:21:51
-2561,Pakumulšiai,Šiauliai–Palanga,A11,5.9,3.0,Vakarų,Nėra,0.0,6.7,3.9,Drėgna,0.82,2023-11-13,11:21:50
-2501,Strėva,Vilnius–Prienai–Marijampolė,A16,4.6,1.5,Pietvakarių,"Lietus, silpnas",0.0,5.7,4.02,Šlapia,0.75,2023-11-13,11:21:47
-2481,Gudeliai,Vilnius–Varėna–Gardinas,A4,4.7,5.7,Vakarų,Nėra,0.0,5.4,3.51,Šlapia,0.75,2023-11-13,11:21:47
-2281,Jakai į Vilnių 1,A01_304.760_07 (Jakų sankr.),0001090007,6.1,5.0,Šiaurės,,,6.2,2.55,Šlapia,0.81,2023-11-13,11:25:00
-2301,Jakai į Klaipėdą 1,A01_304.760_02 (Jakų sankr.),0001090002,6.1,,,,,,,Šlapia,0.79,2023-11-13,11:25:00
-2261,Jakai į Vilnių 2,A01_304.760_07 (Jakų sankr.),0001090007,6.2,,,,,,2.47,Šlapia,0.79,2023-11-13,11:25:00
-1901,Kelmė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,6.1,5.2,Vakarų,,,7.3,3.09,Sausa,0.82,2023-11-13,11:21:23
-2001,Mediniškiai,Smilgiai–Pakruojis,149,5.4,4.2,Vakarų,"Lietus, silpnas",0.34,7.3,4.21,Šlapia,0.69,2023-11-13,11:21:25
-989,Skirsnemunė,Kaunas–Jurbarkas–Šilutė–Klaipėda,141,6.1,4.6,Vakarų,Nėra,0.0,7.4,4.58,Šlapia,0.76,2023-11-13,11:24:18
-1001,Šeduva,Panevėžys–Šiauliai,A9,5.6,4.7,Šiaurės vakarų,"Lietus, silpnas",0.37,6.3,4.25,Šlapia,0.67,2023-11-13,11:20:00
-1061,Kybartai,Marijampolė–Kybartai–Kaliningradas,A7,5.8,4.8,Pietvakarių,Nėra,0.0,6.2,3.14,Sausa,0.82,2023-11-13,11:20:00
-987,Seredžius,Kaunas–Jurbarkas–Šilutė–Klaipėda,141,6.0,4.1,Vakarų,Nėra,0.0,6.7,4.0,Sausa,0.82,2023-11-13,11:24:18
-984,Šilutė,Kaunas–Jurbarkas–Šilutė–Klaipėda,141,6.9,3.4,Šiaurės vakarų,"Lietus, silpnas",0.0,9.5,4.39,Šlapia,0.74,2023-11-13,11:24:17
-981,Šventoji,Klaipėda–Liepoja,A13,6.7,2.1,Vakarų,"Lietus, silpnas",0.78,6.7,3.5,Šlapia,0.81,2023-11-13,11:24:16
-961,Šimkaičiai,Raseiniai–Šilinė,146,6.0,4.4,Vakarų,Nėra,0.0,7.0,3.84,Sausa,0.82,2023-11-13,11:25:06
-367,Endriejavas,Vilnius–Kaunas–Klaipėda,A1,5.3,4.2,Vakarų,,0.0,5.9,3.15,Šlapia,0.82,2023-11-13,11:22:16
-362,Viduklė,Vilnius–Kaunas–Klaipėda,A1,6.1,3.6,Pietvakarių,,0.0,7.2,3.94,Sausa,0.82,2023-11-13,11:22:16
-361,Kalnujai,Vilnius–Kaunas–Klaipėda,A1,6.1,4.7,Pietvakarių,,0.0,7.4,3.94,Sausa,0.82,2023-11-13,11:22:15
-408,Svėdasai,Radiškis–Anykščiai–Rokiškis,120,4.9,4.0,Šiaurės vakarų,,0.34,6.1,4.02,Šlapia,0.78,2023-11-13,11:22:36
-409,Antazavė,Zarasai–Bradesiai–Obeliai,117,5.0,4.2,Vakarų,"Lietus, silpnas",0.19,5.7,3.96,Šlapia,0.77,2023-11-13,11:22:36
-128,Naujoji Akmenė,Šiauliai–Gruzdžiai–Naujoji Akmenė,154,5.2,1.3,Šiaurės vakarų,"Lietus, silpnas",0.01,6.2,4.91,Šlapia,0.73,2023-11-13,11:20:03
-318,Raudsparnė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.7,0.8,Šiaurės vakarų,Nėra,0.0,6.9,3.71,Sausa,0.82,2023-11-13,11:22:09
-320,Degučiai,Šiauliai–Pakruojis–Pasvalys,150,5.6,4.4,Vakarų,,0.0,6.7,4.56,Šlapia,0.75,2023-11-13,11:22:10
-306,Šilai,Vilnius–Panevėžys,A2,4.9,2.7,Šiaurės vakarų,,0.2,6.3,4.46,Šlapia,0.69,2023-11-13,11:22:05
-308,Vievis,Vilnius–Kaunas–Klaipėda,A1,5.0,4.8,Pietvakarių,Nėra,0.0,5.7,3.65,Šlapia,0.72,2023-11-13,11:25:00
-312,Eržvilkas,Jurbarkas–Skaudvilė,198,6.0,5.5,Vakarų,Migla,0.0,7.1,3.67,Sausa,0.82,2023-11-13,11:22:06
-314,Baisogala,Jonava–Kėdainiai–Šeduva,144,6.4,3.7,Vakarų,,0.0,7.0,3.38,Šlapia,0.81,2023-11-13,11:22:07
-125,Šniūraičiai,Panevėžys–Šiauliai,A9,5.2,2.4,Vakarų,,,6.3,4.31,Šlapia,0.75,2023-11-13,11:20:00
-363,Raščiai,Vilnius–Kaunas–Klaipėda,A1,5.9,6.1,Pietvakarių,Migla,0.0,7.5,3.9,Sausa,0.82,2023-11-13,11:22:16
-407,Dūkštas,Vilnius–Švenčionys–Zarasai,102,4.8,3.8,Vakarų,,0.03,5.9,3.61,Šlapia,0.74,2023-11-13,11:22:36
-406,Virinta,Kaunas–Zarasai–Daugpilis,A6,5.0,3.7,Šiaurės vakarų,,0.23,6.7,4.27,Šlapia,0.68,2023-11-13,11:22:35
-405,Vištytis,Kalvarija–Gražiškiai–Vištytis,200,5.4,3.7,Vakarų,Nėra,0.0,5.7,2.75,Šlapia,0.81,2023-11-13,11:22:35
-310,IX fortas,Vilnius–Kaunas–Klaipėda,A1,5.5,5.1,Vakarų,Nėra,0.0,7.1,3.67,Sausa,0.82,2023-11-13,11:25:00
-415,Truikiai,Šiauliai–Palanga,A11,5.5,5.7,Vakarų,Nėra,0.0,6.4,3.18,Šlapia,0.8,2023-11-13,11:22:41
-414,Tryškių sankryža,Šiauliai–Palanga,A11,5.5,2.6,Vakarų,Nėra,0.0,6.2,3.18,Sausa,0.82,2023-11-13,11:22:41
-413,Garliava,Kaunas–Marijampolė–Suvalkai,A5,5.3,5.1,Pietvakarių,Migla,0.0,6.2,3.95,Šlapia,0.78,2023-11-13,11:25:00
-412,Skriaudžiai,Kaunas–Marijampolė–Suvalkai,A5,5.4,6.2,Vakarų,Nėra,0.0,7.3,3.89,Šlapia,0.79,2023-11-13,11:25:00
-410,Vandžiogala,Panevėžys–Aristava–Sitkūnai,A8,5.9,5.4,Vakarų,Nėra,0.0,8.0,3.57,Sausa,0.82,2023-11-13,11:22:37
-411,Truskava,Panevėžys–Aristava–Sitkūnai,A8,6.4,4.5,Pietvakarių,"Lietus, silpnas",0.0,6.8,4.56,Šlapia,0.69,2023-11-13,11:25:00
-404,Sudargas,Kiduliai–Ramoniškiai,184,5.6,5.4,Vakarų,Nėra,0.0,6.9,4.56,Šlapia,0.76,2023-11-13,11:22:35
-403,Igliauka,Vilnius–Prienai–Marijampolė,A16,6.0,5.7,Vakarų,Nėra,0.0,6.8,3.5,Šlapia,0.68,2023-11-13,11:22:34
-401,Smilgiai,Panevėžys–Šiauliai,A9,5.4,4.5,Šiaurės vakarų,Dulksna,0.3,6.6,4.21,Šlapia,0.73,2023-11-13,11:22:27
-402,Pumpėnai,Panevėžys–Pasvalys–Ryga,A10,5.4,3.1,Vakarų,,0.03,6.4,3.73,Šlapia,0.77,2023-11-13,11:25:00
-395,Kandrėnai,Daugpilis–Rokiškis–Panevėžys,122,5.2,4.6,Vakarų,Nėra,0.0,6.7,4.01,Šlapia,0.77,2023-11-13,11:22:25
-394,Akmeniai,Daugpilis–Rokiškis–Panevėžys,122,5.1,3.4,Vakarų,,0.18,6.3,4.06,Šlapia,0.75,2023-11-13,11:22:25
-392,Kampai,Antakalnis–Jieznas–Alytus–Merkinė,129,6.0,5.3,Vakarų,Nėra,0.0,7.2,2.99,Drėgna,0.82,2023-11-13,11:22:24
-393,Pivašiūnai,Trakai–Rūdiškės–Pivašiūnai–Alytus,220,4.7,5.5,Vakarų,,0.09,5.6,3.67,Šlapia,0.8,2023-11-13,11:22:24
-391,Pabezninkai,Naujieji Valkininkai–Daugai–Alytus,128,5.1,7.4,Vakarų,,0.0,5.3,3.28,Šlapia,0.81,2023-11-13,11:22:23
-389,Pagramantis,Mažeikiai–Plungė–Tauragė,164,5.7,4.3,Vakarų,Nėra,0.0,7.1,3.54,Šlapia,0.81,2023-11-13,11:22:22
-390,Antegluonis,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.9,2.7,Vakarų,Nėra,0.0,5.9,3.74,Šlapia,0.8,2023-11-13,11:22:22
-388,Požerė,Telšiai–Varniai–Laukuva,160,5.0,3.9,Šiaurės vakarų,Migla,0.0,5.6,3.18,Šlapia,0.79,2023-11-13,11:22:22
-387,Eišiškės,Pirčiupiai–Eišiškės,105,5.4,4.7,Vakarų,"Lietus, silpnas",0.04,,2.75,Šlapia,0.81,2023-11-13,11:22:22
-386,Tartokas,Vilnius–Lyda,A15,4.4,3.7,Vakarų,,0.0,5.2,3.37,Šlapia,0.78,2023-11-13,11:22:21
-383,Kartena,Šiauliai–Palanga,A11,6.8,2.7,Vakarų,Nėra,0.0,7.5,3.77,Šlapia,0.77,2023-11-13,11:22:18
-384,Žemaitėliai,Vilnius–Utena,A14,4.8,5.0,Vakarų,,0.0,5.9,4.07,Šlapia,0.8,2023-11-13,11:22:19
-385,Pamiškiai,Vilnius–Polockas,103,4.8,4.3,Vakarų,"Lietus, silpnas",0.0,5.3,3.61,Šlapia,0.74,2023-11-13,11:22:20
-382,Nemirseta,Klaipėda–Liepoja,A13,6.7,5.7,Šiaurės vakarų,Nėra,0.0,6.4,1.42,Šlapia,0.76,2023-11-13,11:22:18
-381,Užlaukis,Kvėdarna–Švėkšna–Saugos,193,5.8,2.8,Vakarų,"Lietus, silpnas",0.0,6.6,3.97,Sausa,0.82,2023-11-13,11:22:18
-316,Meškuičiai,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.4,5.8,Vakarų,"Lietus, silpnas",0.07,6.1,4.21,Šlapia,0.75,2023-11-13,11:22:08
-229,Nida,Smiltynė–Nida,167,7.2,1.2,Šiaurės vakarų,Nėra,0.0,5.2,2.69,Šlapia,0.8,2023-11-13,11:21:42
-1104,Pabradė,Vilnius–Švenčionys–Zarasai,102,5.5,2.9,Pietvakarių,Dulksna,0.59,5.0,4.46,Šlapia,0.72,2023-11-13,11:20:00
-1222,Užventis,Užventis–Varniai,223,5.8,5.5,Vakarų,,,8.1,2.79,Sausa,0.82,2023-11-13,11:25:03
-1071,Puskelniai,Kaunas–Marijampolė–Suvalkai,A5,7.6,5.4,Pietvakarių,,,,4.19,Sausa,0.82,2023-11-13,11:25:00
-1074,Čiulėnai,Vilnius–Utena,A14,4.9,2.8,Šiaurės vakarų,"Lietus, silpnas",0.62,4.8,3.71,Šlapia,0.73,2023-11-13,11:20:04
-1068,Dieveniškės,Šalčininkai–Dieveniškės–Krakūnai ,104,5.0,2.6,Vakarų,Nėra,0.0,6.0,3.5,Šlapia,0.71,2023-11-13,11:20:00
-1066,Telšiai,Šiauliai–Palanga,A11,4.8,5.3,Vakarų,Nėra,0.0,5.9,3.14,Drėgna,0.82,2023-11-13,11:20:00
-1004,Kalvarija,Kaunas–Marijampolė–Suvalkai,A5,5.5,2.4,Vakarų,,,6.9,2.67,Sausa,0.82,2023-11-13,11:25:00
-1143,Šėta,Panevėžys–Aristava–Sitkūnai,A8,6.5,5.7,Vakarų,,,,4.33,Sausa,0.82,2023-11-13,11:25:03
-1164,Didžiulio ež.,Vilnius–Kaunas–Klaipėda,A1,5.1,2.8,Vakarų,Nėra,0.0,6.0,3.6,Šlapia,0.81,2023-11-13,11:25:00
-1168,Šilagalys,Panevėžys–Aristava–Sitkūnai,A8,5.3,5.7,Šiaurės vakarų,"Lietus, silpnas",0.11,,3.95,Šlapia,0.75,2023-11-13,11:25:00
-941,Tytuvėnai,Raseiniai–Tytuvėnai–Radviliškis,148,5.9,5.1,Vakarų,Nėra,0.0,7.4,3.24,Sausa,0.82,2023-11-13,11:24:16
-1006,Kužiai,Šiauliai–Palanga,A11,5.4,4.1,Šiaurės vakarų,"Lietus, silpnas",0.0,6.0,4.21,Šlapia,0.81,2023-11-13,11:20:00
-1008,Kalviai,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.6,3.2,Šiaurės vakarų,"Lietus, silpnas",0.3,6.5,4.71,Šlapia,0.78,2023-11-13,11:20:00
-1012,Bubiai,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,6.0,3.7,Vakarų,Nėra,0.0,6.6,3.33,Šlapia,0.8,2023-11-13,11:20:00
-1015,Panemunė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,6.9,3.1,Pietvakarių,Nėra,0.0,7.3,4.89,Šlapia,0.78,2023-11-13,11:20:00
-1042,Pirčiupiai,Vilnius–Varėna–Gardinas,A4,4.8,3.4,Vakarų,Nėra,0.0,,3.76,Šlapia,0.75,2023-11-13,11:20:04
-1211,Medininkai,Vilnius–Minskas,A3,3.8,2.1,Pietvakarių,,,4.6,3.37,Šlapia,0.65,2023-11-13,11:20:00
-1214,Joniškis,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.5,,,Dulksna,0.2,5.9,4.61,Šlapia,0.67,2023-11-13,11:20:06
-1003,Šemetaičiai,Kuršėnai–Mažeikiai,155,5.4,4.9,Pietvakarių,Nėra,0.0,6.0,4.05,Šlapia,0.72,2023-11-13,11:20:00
-1140,Seirijai,Alytus–Seirijai–Lazdijai,132,6.0,5.2,Vakarų,Nėra,0.0,8.6,2.81,Sausa,0.82,2023-11-13,11:20:00
-1138,Kučgalys,Biržai–Pandėlys–Rokiškis,123,5.2,4.1,Vakarų,Dulksna,0.64,5.8,4.47,Šlapia,0.75,2023-11-13,11:20:04
-1135,Ukmergė,Vilnius–Panevėžys,A2,6.5,1.9,Pietvakarių,Nėra,0.0,,4.33,Sausa,0.82,2023-11-13,11:20:04
-1132,Maišiagala,Vilnius–Panevėžys,A2,4.8,4.9,Vakarų,,,,4.07,Šlapia,0.8,2023-11-13,11:20:00
-1134,Širvintos,Vilnius–Panevėžys,A2,5.7,4.5,Vakarų,Nėra,0.0,6.3,4.03,Šlapia,0.79,2023-11-13,11:20:00
-1123,Rokiškis,Daugpilis–Rokiškis–Panevėžys,122,4.1,2.9,Šiaurės vakarų,"Lietus, silpnas",1.13,4.8,3.07,Šlapia,0.69,2023-11-13,11:20:00
-1125,Daugailiai,Kaunas–Zarasai–Daugpilis,A6,4.6,5.9,Vakarų,,,5.7,3.26,Šlapia,0.7,2023-11-13,11:20:00
-1129,Saločiai,Panevėžys–Pasvalys–Ryga,A10,5.6,3.5,Vakarų,"Lietus, silpnas",0.37,,4.4,Šlapia,0.68,2023-11-13,11:20:00
-1522,Želva,Ukmergė–Molėtai,115,6.0,4.0,Vakarų,,,6.2,4.16,Drėgna,0.82,2023-11-13,11:20:00
-1122,Kaltanėnai,Utena–Kaltanėnai–Švenčionys,111,5.4,2.5,Vakarų,,,5.4,4.81,Šlapia,0.73,2023-11-13,11:20:00
-1481,Venta,Kuršėnai–Mažeikiai,155,5.8,4.0,Vakarų,Nėra,0.0,7.1,4.29,Šlapia,0.79,2023-11-13,11:20:00
-1401,Zalavas,Vilnius–Švenčionys–Zarasai,102,5.2,2.5,Pietvakarių,,,5.7,4.61,Šlapia,0.72,2023-11-13,11:20:00
-1382,Vilkų sankryža,Mažeikiai–Plungė–Tauragė,164,4.5,0.7,Vakarų,"Lietus, silpnas",0.0,6.2,4.07,Šlapia,0.67,2023-11-13,11:20:00
-1241,Pageležiai,Kaunas–Zarasai–Daugpilis,A6,5.8,3.9,Vakarų,Nėra,0.0,6.8,4.6,Drėgna,0.82,2023-11-13,11:20:04
-1223,Žagarė,Joniškis–Žagarė–Naujoji Akmenė,153,5.4,3.7,Vakarų,"Lietus, silpnas",0.1,5.4,4.36,Šlapia,0.77,2023-11-13,11:20:00
-1206,Babtai,Vilnius–Kaunas–Klaipėda,A1,6.1,4.0,Vakarų,Nėra,0.0,7.6,4.26,Sausa,0.82,2023-11-13,11:25:00
-1208,Bačkonys,Vilnius–Kaunas–Klaipėda,A1,4.9,3.8,Šiaurės vakarų,Nėra,0.0,6.0,3.71,Šlapia,0.73,2023-11-13,11:25:00
-1209,AMV,Vilnius–Kaunas–Klaipėda,A1,4.8,5.5,Pietvakarių,"Lietus, silpnas",0.04,5.6,3.61,Šlapia,0.81,2023-11-13,11:20:04
-1204,Gargždai,Vilnius–Kaunas–Klaipėda,A1,6.4,3.2,Šiaurės vakarų,,,6.7,3.55,Šlapia,0.72,2023-11-13,11:20:00
-1201,Kvėdarna,Vilnius–Kaunas–Klaipėda,A1,5.4,4.4,Šiaurės vakarų,"Lietus, silpnas",0.0,6.3,4.21,Šlapia,0.75,2023-11-13,11:20:00
-1189,Jauniškė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.6,,,,,,3.11,Sausa,0.82,2023-11-13,11:20:04
-1187,Klaipėda,Vilnius–Kaunas–Klaipėda,A1,6.0,5.9,Šiaurės rytų,Dulksna,0.4,5.9,2.99,Šlapia,0.81,2023-11-13,11:20:00
-1185,Kryžkalnis,Vilnius–Kaunas–Klaipėda,A1,5.4,5.5,Vakarų,Migla,0.0,6.7,3.73,Sausa,0.82,2023-11-13,11:20:00
-1183,Gynėvė,Vilnius–Kaunas–Klaipėda,A1,5.9,4.7,Pietvakarių,Nėra,0.0,,3.41,Sausa,0.82,2023-11-13,11:20:00
-1181,Rumšiškės,Vilnius–Kaunas–Klaipėda,A1,5.3,4.5,Vakarų,Nėra,0.0,6.0,3.79,Šlapia,0.81,2023-11-13,11:25:00
-1163,Aukštadvaris,Vilnius–Prienai–Marijampolė,A16,4.3,3.7,Vakarų,,,5.0,3.87,Šlapia,0.77,2023-11-13,11:20:00
-1101,Bukiškės,Vilnius–Panevėžys,A2,4.5,4.9,Vakarų,,,5.4,3.62,Šlapia,0.73,2023-11-13,11:20:00
-1082,Mažeikiai,Mažeikiai–Skuodas,170,5.4,7.2,Vakarų,Nėra,0.0,6.5,3.57,Šlapia,0.74,2023-11-13,11:20:00
-1063,Druskininkai,Vilnius–Varėna–Gardinas,A4,6.1,2.4,Vakarų,Nėra,0.0,7.6,2.91,Sausa,0.82,2023-11-13,11:20:00
+Measuring_Station_ID,Location,Road_Name,Road,Air_Temperature,Wind_Speed,Wind_Direction,Precipitation_Type,Precipitation_Intensity,Dew_point,Road_Surface_Condition,Friction,Road_Surface_Temperature,Date,Time
+3481,Gruzdžiai,Šiauliai–Gruzdžiai–Naujoji Akmenė,154,4.1,4.9,Vakarų,Nėra,0.0,2.61,Sausa,0.82,,2023-11-13,17:51:53
+3821,Dubos,Vilnius–Panevėžys,A2,4.5,3.4,Vakarų,Nėra,0.0,1.53,Sausa,0.82,4.2,2023-11-13,17:51:57
+5210,Bernatoniai,Panevėžio aplinkkelis,A17,4.8,4.9,Vakarų,Nėra,0.0,1.11,Sausa,0.82,4.8,2023-11-13,17:52:39
+5351,Vilnius,Vilnius–Kaunas–Klaipėda,A1,4.7,1.9,Vakarų,Nėra,0.0,2.4,Šlapia,0.8,5.5,2023-11-13,17:52:42
+5352,Vilijampolė,Kaunas–Marijampolė–Suvalkai,A5,4.4,3.2,Vakarų,Nėra,0.0,1.94,Sausa,0.82,4.6,2023-11-13,17:52:42
+6551,Ausieniškės,Vilnius–Kaunas–Klaipėda,A1,4.3,4.4,Vakarų,,,2.65,Šlapia,0.71,4.4,2023-11-13,17:52:42
+7081,KIZ_A1_91.35_KOS,Vilnius–Kaunas–Klaipėda,A1,4.6,3.2,Vakarų,Nėra,0.0,1.96,Sausa,0.82,5.2,2023-11-13,17:53:17
+7331,"KOS A5 12,2 km",Kaunas–Marijampolė–Suvalkai,A5,3.8,1.2,,,0.0,1.51,Sausa,0.82,4.1,2023-11-13,17:53:17
+7332,"KOS A5 21,86 km",Kaunas–Marijampolė–Suvalkai,A5,3.9,3.2,Šiaurės vakarų,,0.0,2.57,Sausa,0.82,4.0,2023-11-13,17:53:17
+7334,"KOS A5 40,65 km",Kaunas–Marijampolė–Suvalkai,A5,4.7,4.8,,,0.0,3.04,Sausa,0.82,5.4,2023-11-13,17:53:17
+7335,"KOS A5 44,48 km",Kaunas–Marijampolė–Suvalkai,A5,4.5,4.2,,,0.0,2.85,Sausa,0.82,5.1,2023-11-13,17:53:17
+7336,"KOS A5 55,62 km",Kaunas–Marijampolė–Suvalkai,A5,4.5,3.5,Vakarų,Nėra,0.0,2.69,Sausa,0.82,5.3,2023-11-13,17:53:17
+6950,KIZ_A1_70.29-KOS,Vilnius–Kaunas–Klaipėda,A1,3.8,5.4,Vakarų,Nėra,0.0,1.68,Drėgna,0.82,3.9,2023-11-13,17:53:16
+7012,KIZ_A1_28.96,Vilnius–Kaunas–Klaipėda,A1,4.3,3.2,Pietvakarių,Nėra,0.0,2.65,Šlapia,0.68,3.7,2023-11-13,17:53:17
+7032,KIZ_A1_51.82-KOS,Vilnius–Kaunas–Klaipėda,A1,4.0,2.8,Pietvakarių,Nėra,0.0,2.03,Šlapia,0.77,4.4,2023-11-13,17:53:17
+2903,Pyšna,Vilnius–Lyda,A15,4.5,1.0,Pietų,,,2.36,Drėgna,0.82,4.7,2023-11-13,17:51:46
+2727,Raudondvario pl.,Kaunas–Marijampolė–Suvalkai,A5,4.4,,,,,2.27,Sausa,0.82,4.6,2023-11-13,17:55:00
+2902,Pastruikiškės,Šiauliai–Palanga,A11,3.8,2.5,Šiaurės vakarų,Nėra,0.0,2.47,Šlapia,0.79,5.3,2023-11-13,17:51:46
+4021,Galvė,Vilniaus pietinis aplinkkelis,A19,5.0,2.7,Vakarų,,,2.01,Drėgna,0.82,4.4,2023-11-13,17:52:01
+4001,Paluknys,Vilnius–Varėna–Gardinas,A4,4.3,,,Nėra,0.0,2.33,Sausa,0.82,4.1,2023-11-13,17:52:01
+3981,Verkšionys,Vievis–Maišiagala–Nemenčinė,108,4.7,,,Nėra,0.0,2.88,Drėgna,0.82,,2023-11-13,17:52:01
+3962,Linkuva,Pakruojis–Linkuva,151,5.3,7.3,Vakarų,Nėra,0.0,2.98,Sausa,0.82,4.9,2023-11-13,17:52:01
+2522,Jakai į Klaipėdą 2,A01_304.760_02 (Jakų sankr.),0001090002,5.4,,,,,,Šlapia,0.79,3.9,2023-11-13,17:51:34
+3941,Žemieji Svirnai,Radiškis–Anykščiai–Rokiškis,120,5.1,3.3,Pietvakarių,Nėra,0.0,1.76,Drėgna,0.82,,2023-11-13,17:52:00
+3961,Svirkančiai,Užventis–Tryškiai–Viekšniai,194,4.3,4.3,Vakarų,,0.0,3.12,Šlapia,0.81,,2023-11-13,17:52:01
+2601,Levaniškiai,Ukmergė–Raguva–Nevėžis,174,4.3,6.3,Pietvakarių,,,2.0,Drėgna,0.82,3.3,2023-11-13,17:51:36
+2582,Giedraičiai,Vilnius–Utena,A14,4.0,,Pietvakarių,Nėra,0.0,2.51,Šlapia,0.77,,2023-11-13,17:51:36
+2581,Grateliai,Kėdainiai–Šėta–Ukmergė,145,4.1,5.1,Vakarų,Nėra,0.0,1.97,Šlapia,0.81,3.5,2023-11-13,17:51:35
+2561,Pakumulšiai,Šiauliai–Palanga,A11,4.3,2.2,Pietvakarių,Nėra,0.0,2.65,Sausa,0.82,5.7,2023-11-13,17:51:35
+2501,Strėva,Vilnius–Prienai–Marijampolė,A16,4.6,1.4,Pietvakarių,Nėra,0.0,2.79,Šlapia,0.79,4.5,2023-11-13,17:51:33
+2481,Gudeliai,Vilnius–Varėna–Gardinas,A4,4.6,5.3,Pietvakarių,Nėra,0.0,2.94,Sausa,0.82,4.6,2023-11-13,17:51:33
+2281,Jakai į Vilnių 1,A01_304.760_07 (Jakų sankr.),0001090007,5.3,5.5,Šiaurės vakarų,,,1.96,Šlapia,0.79,4.8,2023-11-13,17:51:28
+2301,Jakai į Klaipėdą 1,A01_304.760_02 (Jakų sankr.),0001090002,5.2,,,,,,Šlapia,0.79,,2023-11-13,17:51:31
+2261,Jakai į Vilnių 2,A01_304.760_07 (Jakų sankr.),0001090007,5.3,,,,,2.13,Šlapia,0.78,,2023-11-13,17:51:28
+2001,Mediniškiai,Smilgiai–Pakruojis,149,4.7,5.6,Vakarų,Nėra,0.0,2.23,Sausa,0.82,5.4,2023-11-13,17:50:22
+1901,Kelmė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,3.4,2.8,Pietvakarių,,,1.6,Sausa,0.82,3.5,2023-11-13,17:50:15
+1061,Kybartai,Marijampolė–Kybartai–Kaliningradas,A7,4.3,3.9,Pietvakarių,Nėra,0.0,3.27,Sausa,0.82,3.9,2023-11-13,17:50:00
+1001,Šeduva,Panevėžys–Šiauliai,A9,4.6,5.4,Vakarų,Migla,0.0,1.96,Sausa,0.82,4.9,2023-11-13,17:50:00
+989,Skirsnemunė,Kaunas–Jurbarkas–Šilutė–Klaipėda,141,4.8,3.9,Vakarų,Nėra,0.0,2.49,Šlapia,0.78,4.3,2023-11-13,17:53:26
+987,Seredžius,Kaunas–Jurbarkas–Šilutė–Klaipėda,141,4.2,2.9,Vakarų,Nėra,0.0,2.23,Sausa,0.82,4.0,2023-11-13,17:53:26
+984,Šilutė,Kaunas–Jurbarkas–Šilutė–Klaipėda,141,5.0,1.8,Šiaurės vakarų,Nėra,0.0,2.36,Sausa,0.82,6.0,2023-11-13,17:53:24
+981,Šventoji,Klaipėda–Liepoja,A13,5.2,1.1,Vakarų,Nėra,0.0,1.86,Šlapia,0.8,4.6,2023-11-13,17:53:24
+961,Šimkaičiai,Raseiniai–Šilinė,146,3.8,1.9,Vakarų,Nėra,0.0,1.68,Sausa,0.82,3.9,2023-11-13,17:53:24
+367,Endriejavas,Vilnius–Kaunas–Klaipėda,A1,3.7,2.2,Pietvakarių,,0.18,2.06,Šlapia,0.73,3.9,2023-11-13,17:51:54
+362,Viduklė,Vilnius–Kaunas–Klaipėda,A1,3.1,1.6,Pietvakarių,,0.0,1.93,Šlapia,0.81,2.8,2023-11-13,17:51:53
+363,Raščiai,Vilnius–Kaunas–Klaipėda,A1,3.7,3.9,Pietvakarių,Migla,0.0,2.06,Sausa,0.82,3.8,2023-11-13,17:51:53
+361,Kalnujai,Vilnius–Kaunas–Klaipėda,A1,3.1,2.7,Pietvakarių,,0.0,1.78,Sausa,0.82,3.3,2023-11-13,17:51:53
+125,Šniūraičiai,Panevėžys–Šiauliai,A9,4.8,2.3,Vakarų,,,2.16,Sausa,0.82,5.3,2023-11-13,17:50:00
+314,Baisogala,Jonava–Kėdainiai–Šeduva,144,4.3,3.4,Vakarų,,0.0,1.5,Sausa,0.82,4.1,2023-11-13,17:51:51
+312,Eržvilkas,Jurbarkas–Skaudvilė,198,4.1,2.7,Pietvakarių,Migla,0.0,1.81,Sausa,0.82,4.0,2023-11-13,17:51:50
+308,Vievis,Vilnius–Kaunas–Klaipėda,A1,4.4,3.7,Pietvakarių,Nėra,0.0,2.59,Sausa,0.82,36.7,2023-11-13,17:51:48
+306,Šilai,Vilnius–Panevėžys,A2,4.4,4.9,Pietvakarių,,0.0,1.77,Sausa,0.82,3.8,2023-11-13,17:51:47
+320,Degučiai,Šiauliai–Pakruojis–Pasvalys,150,4.5,4.3,Vakarų,,0.0,2.53,Sausa,0.82,4.1,2023-11-13,17:51:53
+318,Raudsparnė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,3.2,0.6,Šiaurės vakarų,Nėra,0.0,1.87,Sausa,0.82,4.7,2023-11-13,17:51:53
+409,Antazavė,Zarasai–Bradesiai–Obeliai,117,4.3,4.7,Vakarų,"Lietus, silpnas",0.17,3.27,Šlapia,0.76,4.4,2023-11-13,17:52:02
+128,Naujoji Akmenė,Šiauliai–Gruzdžiai–Naujoji Akmenė,154,4.2,1.1,Vakarų,Nėra,0.0,2.71,Šlapia,0.8,4.9,2023-11-13,17:50:00
+407,Dūkštas,Vilnius–Švenčionys–Zarasai,102,4.3,4.1,Vakarų,,0.02,3.12,Šlapia,0.73,4.5,2023-11-13,17:52:02
+408,Svėdasai,Radiškis–Anykščiai–Rokiškis,120,4.6,4.2,Vakarų,,0.0,3.41,Šlapia,0.78,4.6,2023-11-13,17:52:02
+406,Virinta,Kaunas–Zarasai–Daugpilis,A6,5.0,3.2,Vakarų,,0.0,2.19,Šlapia,0.76,4.4,2023-11-13,17:52:02
+405,Vištytis,Kalvarija–Gražiškiai–Vištytis,200,4.1,2.7,Pietvakarių,Nėra,0.0,3.22,Šlapia,0.78,4.2,2023-11-13,17:52:01
+310,IX fortas,Vilnius–Kaunas–Klaipėda,A1,4.3,3.2,Vakarų,Nėra,0.0,2.33,Sausa,0.82,4.8,2023-11-13,17:51:49
+415,Truikiai,Šiauliai–Palanga,A11,3.7,4.1,Vakarų,"Lietus, silpnas",0.0,2.37,Šlapia,0.74,3.9,2023-11-13,17:52:03
+414,Tryškių sankryža,Šiauliai–Palanga,A11,3.5,1.4,Vakarų,Nėra,0.0,2.48,Šlapia,0.71,4.0,2023-11-13,17:52:03
+413,Garliava,Kaunas–Marijampolė–Suvalkai,A5,4.0,3.3,Pietvakarių,"Lietus, silpnas",0.0,2.51,Sausa,0.82,4.6,2023-11-13,17:52:03
+412,Skriaudžiai,Kaunas–Marijampolė–Suvalkai,A5,4.6,5.5,Pietvakarių,"Lietus, silpnas",0.0,3.1,Drėgna,0.82,5.1,2023-11-13,17:52:02
+411,Truskava,Panevėžys–Aristava–Sitkūnai,A8,4.1,3.2,Pietvakarių,Nėra,0.0,1.81,Sausa,0.82,4.0,2023-11-13,17:52:02
+404,Sudargas,Kiduliai–Ramoniškiai,184,4.6,2.2,Pietvakarių,Nėra,0.0,2.79,Šlapia,0.75,4.6,2023-11-13,17:52:01
+410,Vandžiogala,Panevėžys–Aristava–Sitkūnai,A8,5.0,4.3,Pietvakarių,Nėra,0.0,1.84,Sausa,0.82,6.2,2023-11-13,17:52:02
+403,Igliauka,Vilnius–Prienai–Marijampolė,A16,3.9,3.9,Pietvakarių,Nėra,0.0,2.41,Sausa,0.82,4.1,2023-11-13,17:52:01
+402,Pumpėnai,Panevėžys–Pasvalys–Ryga,A10,5.4,5.6,Vakarų,,0.0,2.75,Sausa,0.82,5.4,2023-11-13,17:52:01
+401,Smilgiai,Panevėžys–Šiauliai,A9,4.2,6.0,Vakarų,Nėra,0.0,1.74,Sausa,0.82,3.7,2023-11-13,17:52:01
+395,Kandrėnai,Daugpilis–Rokiškis–Panevėžys,122,5.1,5.3,Pietvakarių,Nėra,0.0,2.95,Šlapia,0.77,5.1,2023-11-13,17:52:01
+394,Akmeniai,Daugpilis–Rokiškis–Panevėžys,122,5.3,3.1,Vakarų,,0.0,2.31,Sausa,0.82,4.8,2023-11-13,17:52:01
+392,Kampai,Antakalnis–Jieznas–Alytus–Merkinė,129,4.2,3.7,Vakarų,"Lietus, silpnas",0.0,3.17,Šlapia,0.8,4.5,2023-11-13,17:52:00
+393,Pivašiūnai,Trakai–Rūdiškės–Pivašiūnai–Alytus,220,4.1,3.9,Vakarų,,0.0,1.64,Šlapia,0.81,2.0,2023-11-13,17:52:00
+390,Antegluonis,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,3.8,2.0,Pietvakarių,Nėra,0.0,2.16,Šlapia,0.8,3.5,2023-11-13,17:52:00
+391,Pabezninkai,Naujieji Valkininkai–Daugai–Alytus,128,4.4,5.6,Vakarų,,0.0,1.77,Sausa,0.82,3.5,2023-11-13,17:52:00
+389,Pagramantis,Mažeikiai–Plungė–Tauragė,164,3.3,1.5,Vakarų,Nėra,0.0,2.28,Sausa,0.82,3.4,2023-11-13,17:52:00
+388,Požerė,Telšiai–Varniai–Laukuva,160,3.2,1.7,Vakarų,Migla,0.0,1.87,Šlapia,0.78,3.5,2023-11-13,17:51:59
+387,Eišiškės,Pirčiupiai–Eišiškės,105,4.6,4.2,Vakarų,"Lietus, silpnas",1.14,2.94,Sausa,0.82,,2023-11-13,17:51:57
+386,Tartokas,Vilnius–Lyda,A15,4.5,3.4,Pietvakarių,,0.0,2.03,Šlapia,0.8,4.4,2023-11-13,17:51:57
+385,Pamiškiai,Vilnius–Polockas,103,4.2,4.5,Vakarų,Nėra,0.0,2.23,Sausa,0.82,3.8,2023-11-13,17:51:57
+384,Žemaitėliai,Vilnius–Utena,A14,3.9,4.8,Vakarų,,0.0,2.57,Šlapia,0.81,4.0,2023-11-13,17:51:57
+316,Meškuičiai,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,4.5,4.4,Pietvakarių,Nėra,0.0,2.53,Sausa,0.82,4.4,2023-11-13,17:51:52
+381,Užlaukis,Kvėdarna–Švėkšna–Saugos,193,4.5,3.2,Pietvakarių,Nėra,0.0,2.53,Sausa,0.82,4.0,2023-11-13,17:51:57
+382,Nemirseta,Klaipėda–Liepoja,A13,5.5,3.5,Šiaurės vakarų,Nėra,0.0,1.79,Sausa,0.82,5.0,2023-11-13,17:51:57
+383,Kartena,Šiauliai–Palanga,A11,4.4,1.1,Šiaurės vakarų,"Lietus, silpnas",0.0,2.43,Šlapia,0.74,4.9,2023-11-13,17:51:57
+1074,Čiulėnai,Vilnius–Utena,A14,4.4,2.3,Pietvakarių,Nėra,0.0,2.59,Šlapia,0.81,4.2,2023-11-13,17:50:00
+1104,Pabradė,Vilnius–Švenčionys–Zarasai,102,4.4,2.7,Pietvakarių,Nėra,0.0,2.43,Šlapia,0.79,3.1,2023-11-13,17:50:00
+1222,Užventis,Užventis–Varniai,223,3.7,3.9,Vakarų,,,1.74,Sausa,0.82,4.3,2023-11-13,17:50:00
+229,Nida,Smiltynė–Nida,167,6.7,0.9,Pietvakarių,Nėra,0.0,1.42,Sausa,0.82,5.7,2023-11-13,17:51:30
+1071,Puskelniai,Kaunas–Marijampolė–Suvalkai,A5,5.0,4.0,Pietvakarių,,,3.02,Sausa,0.82,,2023-11-13,17:50:00
+1068,Dieveniškės,Šalčininkai–Dieveniškės–Krakūnai ,104,4.6,2.5,Vakarų,Nėra,0.0,1.96,Šlapia,0.79,4.5,2023-11-13,17:50:00
+1003,Šemetaičiai,Kuršėnai–Mažeikiai,155,4.4,4.8,Pietvakarių,Nėra,0.0,2.59,Drėgna,0.82,4.8,2023-11-13,17:50:00
+1066,Telšiai,Šiauliai–Palanga,A11,3.4,2.5,Vakarų,Nėra,0.0,2.07,Šlapia,0.81,3.6,2023-11-13,17:50:00
+1004,Kalvarija,Kaunas–Marijampolė–Suvalkai,A5,4.1,1.5,Vakarų,,,3.37,Šlapia,0.71,4.6,2023-11-13,17:50:00
+1214,Joniškis,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.0,,,Nėra,0.0,3.5,Šlapia,0.74,4.7,2023-11-13,17:50:00
+1042,Pirčiupiai,Vilnius–Varėna–Gardinas,A4,4.4,2.7,Vakarų,Nėra,0.0,2.1,Drėgna,0.82,,2023-11-13,17:50:00
+1211,Medininkai,Vilnius–Minskas,A3,3.7,2.0,Pietvakarių,,,2.37,Šlapia,0.7,3.6,2023-11-13,17:50:00
+1015,Panemunė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.4,2.5,Pietvakarių,Nėra,0.0,2.92,Sausa,0.82,5.1,2023-11-13,17:50:02
+1012,Bubiai,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,4.3,2.0,Vakarų,Nėra,0.0,2.0,Sausa,0.82,5.6,2023-11-13,17:50:00
+1008,Kalviai,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,5.2,3.7,Vakarų,Nėra,0.0,4.01,Šlapia,0.81,5.1,2023-11-13,17:50:02
+1522,Želva,Ukmergė–Molėtai,115,4.4,4.4,Vakarų,,,1.77,Šlapia,0.8,3.9,2023-11-13,17:50:00
+1122,Kaltanėnai,Utena–Kaltanėnai–Švenčionys,111,4.3,2.1,Vakarų,,,3.12,Šlapia,0.79,3.1,2023-11-13,17:50:00
+1123,Rokiškis,Daugpilis–Rokiškis–Panevėžys,122,3.6,2.6,Vakarų,"Lietus, silpnas",0.28,3.02,Šlapia,0.7,4.0,2023-11-13,17:50:00
+1125,Daugailiai,Kaunas–Zarasai–Daugpilis,A6,4.3,5.7,Vakarų,,,2.96,Šlapia,0.7,4.6,2023-11-13,17:50:00
+1129,Saločiai,Panevėžys–Pasvalys–Ryga,A10,5.3,3.9,Vakarų,"Lietus, silpnas",0.46,4.41,Šlapia,0.66,,2023-11-13,17:50:00
+1132,Maišiagala,Vilnius–Panevėžys,A2,4.6,4.1,Vakarų,,,2.3,Šlapia,0.81,,2023-11-13,17:50:00
+1134,Širvintos,Vilnius–Panevėžys,A2,4.6,3.7,Vakarų,Nėra,0.0,2.46,Sausa,0.82,4.5,2023-11-13,17:50:00
+1135,Ukmergė,Vilnius–Panevėžys,A2,4.7,1.9,Pietvakarių,Nėra,0.0,2.06,Sausa,0.82,,2023-11-13,17:50:00
+1138,Kučgalys,Biržai–Pandėlys–Rokiškis,123,4.7,4.7,Vakarų,"Lietus, silpnas",0.12,4.26,Šlapia,0.73,5.0,2023-11-13,17:50:00
+1140,Seirijai,Alytus–Seirijai–Lazdijai,132,4.4,3.6,Vakarų,Nėra,0.0,2.91,Šlapia,0.8,6.7,2023-11-13,17:50:00
+1143,Šėta,Panevėžys–Aristava–Sitkūnai,A8,4.0,3.3,Vakarų,,,2.19,Sausa,0.82,,2023-11-13,17:50:00
+1164,Didžiulio ež.,Vilnius–Kaunas–Klaipėda,A1,4.9,3.5,Vakarų,Nėra,0.0,2.09,Šlapia,0.73,4.5,2023-11-13,17:50:00
+1168,Šilagalys,Panevėžys–Aristava–Sitkūnai,A8,4.7,7.0,Vakarų,Migla,0.0,1.55,Sausa,0.82,,2023-11-13,17:50:00
+941,Tytuvėnai,Raseiniai–Tytuvėnai–Radviliškis,148,3.7,4.3,Pietvakarių,Nėra,0.0,1.58,Sausa,0.82,4.0,2023-11-13,17:53:24
+1006,Kužiai,Šiauliai–Palanga,A11,4.6,3.8,Vakarų,"Lietus, silpnas",0.0,2.46,Šlapia,0.81,4.9,2023-11-13,17:50:00
+1481,Venta,Kuršėnai–Mažeikiai,155,4.4,4.6,Vakarų,Nėra,0.0,2.75,Šlapia,0.82,4.7,2023-11-13,17:50:00
+1401,Zalavas,Vilnius–Švenčionys–Zarasai,102,4.5,2.0,Vakarų,,,2.36,Šlapia,0.74,4.3,2023-11-13,17:50:00
+1382,Vilkų sankryža,Mažeikiai–Plungė–Tauragė,164,3.2,0.6,Pietvakarių,Nėra,0.0,2.48,Šlapia,0.73,4.8,2023-11-13,17:50:00
+1223,Žagarė,Joniškis–Žagarė–Naujoji Akmenė,153,4.9,3.9,Vakarų,Nėra,0.0,3.71,Šlapia,0.81,4.4,2023-11-13,17:50:00
+1241,Pageležiai,Kaunas–Zarasai–Daugpilis,A6,4.8,3.6,Vakarų,Nėra,0.0,2.16,Sausa,0.82,5.2,2023-11-13,17:50:00
+1209,AMV,Vilnius–Kaunas–Klaipėda,A1,2.3,2.7,Pietvakarių,Nėra,0.0,1.29,Šlapia,0.78,2.4,2023-11-13,17:50:00
+1208,Bačkonys,Vilnius–Kaunas–Klaipėda,A1,4.3,2.3,Šiaurės vakarų,Migla,0.0,2.49,Šlapia,0.73,4.7,2023-11-13,17:50:00
+1206,Babtai,Vilnius–Kaunas–Klaipėda,A1,4.6,3.8,Vakarų,Nėra,0.0,2.13,Sausa,0.82,5.2,2023-11-13,17:50:00
+1201,Kvėdarna,Vilnius–Kaunas–Klaipėda,A1,2.8,3.1,Vakarų,Nėra,0.0,1.48,Sausa,0.82,2.4,2023-11-13,17:50:00
+1204,Gargždai,Vilnius–Kaunas–Klaipėda,A1,5.0,3.9,Šiaurės vakarų,,,2.52,Šlapia,0.73,5.3,2023-11-13,17:50:00
+1187,Klaipėda,Vilnius–Kaunas–Klaipėda,A1,5.1,3.3,Šiaurės rytų,"Lietus, silpnas",0.1,2.28,Šlapia,0.81,5.0,2023-11-13,17:50:00
+1189,Jauniškė,Ryga–Šiauliai–Tauragė–Kaliningradas,A12,2.8,,,,,1.48,Drėgna,0.82,,2023-11-13,17:50:00
+1185,Kryžkalnis,Vilnius–Kaunas–Klaipėda,A1,3.1,3.0,Vakarų,Nėra,0.0,1.62,Šlapia,0.8,2.4,2023-11-13,17:50:00
+1183,Gynėvė,Vilnius–Kaunas–Klaipėda,A1,3.9,3.6,Pietvakarių,Nėra,0.0,1.61,Sausa,0.82,,2023-11-13,17:50:00
+1181,Rumšiškės,Vilnius–Kaunas–Klaipėda,A1,4.6,3.3,Vakarų,Nėra,0.0,2.13,Sausa,0.82,4.1,2023-11-13,17:50:00
+1163,Aukštadvaris,Vilnius–Prienai–Marijampolė,A16,4.2,4.0,Pietvakarių,,,2.39,Sausa,0.82,4.1,2023-11-13,17:50:00
+1101,Bukiškės,Vilnius–Panevėžys,A2,4.1,3.4,Vakarų,,,2.61,Drėgna,0.82,4.1,2023-11-13,17:50:00
+1082,Mažeikiai,Mažeikiai–Skuodas,170,3.6,4.2,Vakarų,Nėra,0.0,2.27,Šlapia,0.73,3.8,2023-11-13,17:50:00
+1063,Druskininkai,Vilnius–Varėna–Gardinas,A4,5.5,1.6,Pietvakarių,Nėra,0.0,2.33,Sausa,0.82,5.6,2023-11-13,17:50:00
