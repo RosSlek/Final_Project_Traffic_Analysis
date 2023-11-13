@@ -37,22 +37,49 @@ for i in range(len(data)):
     data1 = page.json()[i]['roadSegments']
     list.append(data1)
 
-print(list)
+# print(list)
 print("########################################################################3")
-print(len(list))
+# print(len(list))
+
+direction_list = []
+
+for x in range(len(list)):
+    try:
+        data2 = list[x][0]
+        direction_list.append(data2)
+    except:
+        direction_list.append(0)
+        continue
+
+
+print(len(direction_list))
 
 direction_negative = []
 direction_positive = []
-for x in range(len(list)):
-    data2 = list[x][0]
-    # data3 = list[x][1]
-    direction_negative.append(data2)
-    # direction_positive.append(data3)
 
+for y in range(len(direction_list)):
+    try:
+        data3 = direction_list[y][0]
+        direction_positive.append(data3)
+    except:
+        direction_positive.append(0)
+        continue
+
+for u in range(len(direction_list)):
+    try:
+        data4 = direction_list[u][1]
+        direction_negative.append(data4)
+    except:
+        direction_negative.append(0)
+        continue
+
+
+print(len(direction_negative))
 print(direction_negative)
 print("3333333333333333333333333333333333333333333333333333333333333333")
 # print(direction_positive)
-
+print(len(direction_positive))
+print(direction_positive)
 # df_info = pd.DataFrame(data)
 # df_negative = pd.DataFrame(direction_negative)
 # df_positive = pd.DataFrame(direction_positive)

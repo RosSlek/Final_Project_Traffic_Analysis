@@ -58,36 +58,34 @@ df = pd.DataFrame(data)
 
 
 
+direction_list = []
+
+for x in range(len(list)):
+    try:
+        data2 = list[x][0]
+        direction_list.append(data2)
+    except:
+        direction_list.append(0)
+        continue
 
 
-# headers = {
-# "User-Agent": "Chrome/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0"
-# }
-# url = "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?hash=52b746af-9995-4168-8d27-1865a4ba4076#/"
-# res = requests.get(url, headers=headers)
-# # response = requests.get(url)
-# soup = BeautifulSoup(res.content,"html.parser")
-#
-# #apacioje esanti eilute parodys tik teksta, be jokiu kodu, taip sakant nukopinam informacija is aruodo
-# content_block = soup.find("div", class_="fluid-table-sidebar")
-# # for content in content_block:
-#
-# print(content_block)
+print(len(direction_list))
 
+direction_negative = []
+direction_positive = []
 
+for y in range(len(direction_list)):
+    try:
+        data3 = direction_list[0]
+        data4 = direction_list[1]
+        direction_positive.append(data3)
+        direction_negative.append(data4)
+    except:
+        direction_negative.append(0)
+        continue
 
+print(direction_negative)
+print("3333333333333333333333333333333333333333333333333333333333333333")
+# print(direction_positive)
+print(direction_positive)
 
-# url = "https://osp.stat.gov.lt/statistiniu-rodikliu-analize?hash=52b746af-9995-4168-8d27-1865a4ba4076#/"
-# response = requests.get(url)
-# soup = BeautifulSoup(response.content,"html.parser")
-#
-# #apacioje esanti eilute parodys tik teksta, be jokiu kodu, taip sakant nukopinam informacija is aruodo
-# # content_block = soup.find('table', class_= "pb-center-column pb-right-column col-xs-12 col-sm-12 col-md-6 product-main-right")
-# # for content in content_block:
-#
-#
-# # flat_title = content_block.select('div''"h1", class_="name").text.strip()
-# # flat_title = content_block.select_one("div.desktop-only h1").text.strip()
-# ## turi buti grotazymes, jeigu ID
-# # flat_title = soup.select_one("table#table")
-# print(soup)
