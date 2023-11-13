@@ -77,6 +77,6 @@ df_negative.rename(columns={'direction': 'Direction_Negative', 'numberOfVehicles
 ############### Joining DataFrames ###############
 
 general = pd.concat([df_info, df_negative, df_positive], axis=1)
-general.to_csv("Road_Traffic_intensity_real_time.csv", index=False)
+general.to_csv("Road_traffic_intensity_real_time.csv", index=False)
 
 ###############  ###############
