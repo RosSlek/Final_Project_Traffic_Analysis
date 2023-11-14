@@ -79,5 +79,3 @@ print(df_info)
 #
 # general = pd.concat([df_info, df_negative, df_positive], axis=1)
 # general.to_csv("Road_traffic_intensity_real_time.csv", index=False)
-
-###############  ###############
