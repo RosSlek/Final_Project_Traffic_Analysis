@@ -1,9 +1,5 @@
 import requests
-import json
-import psycopg2
 import pandas as pd
-from bs4 import BeautifulSoup
-from datetime import datetime
 import time
 import schedule
 import os.path
