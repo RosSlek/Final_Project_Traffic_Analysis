@@ -27,7 +27,7 @@ def lt_2023_grafikas():
 lt_2023_grafikas()
 
 KOMENTARAS##########################
-
+gfgdfgd
 
 def lietuvos_regionu_grafikas_22_23():
     lietuvos_regionu_data()
