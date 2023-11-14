@@ -2,13 +2,6 @@ import pandas as pd
 import requests
 import matplotlib.pyplot as plt
 import os.path
-from bs4 import BeautifulSoup
-import time
-import schedule
-import json
-import psycopg2
-from datetime import datetime
-import urllib.parse
 
 ############### Function To Scrape Road Info Real Time ###############
 def scrape_road_info_real_time():
