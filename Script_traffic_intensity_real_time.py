@@ -26,7 +26,7 @@ headers = {
 url = "https://eismoinfo.lt/traffic-intensity-service"
 
 page = requests.get(url, headers = headers)
-# print(page.status_code)
+print(page.status_code)
 data = page.json()
 
 ############### Creating DataFrames ###############
@@ -49,7 +49,7 @@ df_info = pd.DataFrame(data)
 df_positive = pd.DataFrame(direction_positive)
 df_negative = pd.DataFrame(direction_negative)
 
-# print(df_info)
+print(df_info)
 # print(df_positive)
 # print(df_negative)
 
@@ -57,26 +57,27 @@ df_negative = pd.DataFrame(direction_negative)
 
 df_info['Date'] = df_info['date'].str.split(pat='.', n=0, expand=True)[0]
 df_info['Date'] = df_info['Date'].str.replace('T', ' ')
+print(df_info)
 
-df_info['Date'] = pd.to_datetime(df_info['Date'])
-df_info['Date'] = df_info['Date'] + pd.Timedelta(hours=2)
+# df_info['Date'] = pd.to_datetime(df_info['Date'])
+# # df_info['Date'] = df_info['Date'] + pd.Timedelta(hours=2)
+#
+# df_info['Date'] = pd.to_datetime(df_info['Date']).dt.date
+# df_info['Time'] = pd.to_datetime(df_info['Date']).dt.time
 
-df_info['Date'] = pd.to_datetime(df_info['Date']).dt.date
-df_info['Time'] = pd.to_datetime(df_info['Date']).dt.time
-
-df_info.drop(columns=['id', 'km', 'x', 'y', 'roadSegments', 'timeInterval', 'date'], inplace=True)
-df_info.rename(columns={'name': 'Location', 'roadNr': 'Road', 'roadName': 'Road_Name'}, inplace=True)
-df_info['Road_Name'] = df_info['Road_Name'].str.replace('*', '')
-
-df_positive.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
-df_positive.rename(columns={'direction': 'Direction_Positive', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
-
-df_negative.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
-df_negative.rename(columns={'direction': 'Direction_Negative', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
-
-############### Joining DataFrames ###############
-
-general = pd.concat([df_info, df_negative, df_positive], axis=1)
-general.to_csv("Road_traffic_intensity_real_time.csv", index=False)
+# df_info.drop(columns=['id', 'km', 'x', 'y', 'roadSegments', 'date'], inplace=True)
+# df_info.rename(columns={'name': 'Location', 'roadNr': 'Road', 'timeInterval': 'Time_Interval', 'roadName': 'Road_Name'}, inplace=True)
+# df_info['Road_Name'] = df_info['Road_Name'].str.replace('*', '')
+#
+# df_positive.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
+# df_positive.rename(columns={'direction': 'Direction_Positive', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
+#
+# df_negative.drop(columns=['startX', 'startY', 'endX', 'endY', 'winterSpeed', 'summerSpeed'], inplace=True)
+# df_negative.rename(columns={'direction': 'Direction_Negative', 'numberOfVehicles': 'Number_of_Vehicles', 'averageSpeed': 'Average_Speed', 'trafficType':'Traffic_Type'}, inplace=True)
+#
+# ############### Joining DataFrames ###############
+#
+# general = pd.concat([df_info, df_negative, df_positive], axis=1)
+# general.to_csv("Road_traffic_intensity_real_time.csv", index=False)
 
 ###############  ###############

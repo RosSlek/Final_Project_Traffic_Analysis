@@ -30,6 +30,7 @@ def script_info_periodially():
 
     df['date'] = pd.to_datetime(df['date'], unit='ms')
     df['date'] = df['date'] + pd.Timedelta(hours=2)
+    df['date'] = df['date'] - pd.Timedelta(minutes=30)
 
     df['Date'] = pd.to_datetime(df['date']).dt.date
     df['Time'] = pd.to_datetime(df['date']).dt.time
@@ -38,25 +39,24 @@ def script_info_periodially():
     df.rename(columns={'id': 'Measuring_Station_ID', 'name': 'Location', 'roadName': 'Road_Name', 'roadNr': 'Road', 'airTemperature': 'Air_Temperature', 'windDirection': 'Wind_Direction', 'windSpeed': 'Wind_Speed', 'precipitationType': 'Precipitation_Type', 'precipitationIntensity': 'Precipitation_Intensity', 'dewPoint': 'Dew_point', 'roadTemperature': 'Road_Surface_Temperature', 'surfaceCondition': 'Road_Surface_Condition', 'friction': 'Friction'}, inplace=True)
     df['Road_Name'] = df['Road_Name'].str.replace('*', '')
 
-    ############### Saving Periodical Data as CSV ###############
+    ############### Saving Periodical Data As CSV ###############
 
-    if os.path.isfile('Road_info_periodical.csv'):
-        df.to_csv("Road_info_periodical.csv", mode='a', index=False, header=False)
+    if os.path.isfile('Road_info_periodical_atsargine2.csv'):
+        df.to_csv("Road_info_periodical_atsargine2.csv", mode='a', index=False, header=False)
     else:
-        df.to_csv("Road_info_periodical.csv", index=False, header=True)
+        df.to_csv("Road_info_periodical_atsargine2.csv", index=False, header=True)
 
 # script_info_periodially()
 
-############### Setting Schedule for Data Collecting ###############
+############### Setting Schedule For Data Collecting ###############
 
-schedule.every().day.at("03:15").do(script_info_periodially)
-schedule.every().day.at("09:15").do(script_info_periodially)
-schedule.every().day.at("15:15").do(script_info_periodially)
-schedule.every().day.at("21:15").do(script_info_periodially)
+schedule.every().day.at("03:30").do(script_info_periodially)
+schedule.every().day.at("09:30").do(script_info_periodially)
+schedule.every().day.at("15:30").do(script_info_periodially)
+schedule.every().day.at("21:30").do(script_info_periodially)
 
 while True:
     schedule.run_pending()
-    # time.sleep(50)
     time.sleep(21600)
 
 

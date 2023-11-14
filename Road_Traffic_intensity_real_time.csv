@@ -1,285 +1,285 @@
-Location,Road,Road_Name,Date,Time,Direction_Negative,Number_of_Vehicles,Average_Speed,Traffic_Type,Direction_Positive,Number_of_Vehicles,Average_Speed,Traffic_Type
-Pagojys I,4512,Skaudvilė–Adakavas–Nemakščiai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Aukštvilkiai,4526,Lauksargiai–Aukštvilkiai,2023-11-13,00:00:00,negative,0,,normal,positive,1,59.8,heavy
-Lupenka,102,Vilnius–Švenčionys–Zarasai,2023-11-13,00:00:00,negative,1,89.7,normal,positive,1,94.3,normal
-Kirtimai I,A19,Vilniaus pietinis aplinkkelis,2023-11-13,00:00:00,positive,35,86.07,normal,negative,38,84.48,normal
-Giedraičiai,A14,Vilnius–Utena,2023-11-13,00:00:00,negative,7,88.49,normal,positive,6,91.45,normal
-Avietinė,104,Šalčininkai–Dieveniškės–Krakūnai ,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Biruliškės 1,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,36,101.81,heavy,positive,52,100.15,heavy
-Kupsčiai,3520,Ilgižiai–Kupsčiai,2023-11-13,00:00:00,,0,0.0,0,,0,0.0,0
-Meiliškiai,2016,Mantviliškis–Ažytėnai–Vosyliškis,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Kalibatas,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,13,68.54,heavy,positive,8,90.16,heavy
-Lančiūnava,A8,Panevėžys–Aristava–Sitkūnai,2023-11-13,00:00:00,negative,13,86.62,normal,positive,17,82.31,normal
-Tautušiai,225,Raseiniai–Baisogala,2023-11-13,00:00:00,negative,0,,normal,positive,1,59.9,slow
-Biruliškės 3,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Didžiuliai,3527,Didžiuliai–Stanioniai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Rūdėniškės,113,Dūkštas–Visaginas,2023-11-13,00:00:00,positive,0,,normal,negative,1,95.1,normal
-Dobrovolė,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,12,81.13,normal,negative,15,71.78,normal
-Miškonys,102,Vilnius–Švenčionys–Zarasai,2023-11-13,00:00:00,negative,4,69.95,normal,positive,9,76.67,normal
-Ražiškiai,139,Kauno HE–Garliava,2023-11-13,00:00:00,negative,13,88.98,normal,positive,10,84.33,normal
-Eigirgala,222,Kaunas–Vandžiogala,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Barskūnai,5230,Paberžė–Barskūnai–Medžiukai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Rūdninkai,176,Pirčiupiai–Jašiūnai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Upytė,195,Kėdainiai–Krekenava–Panevėžys,2023-11-13,00:00:00,positive,4,92.45,normal,negative,3,85.6,normal
-Margininkai,3019,Mairiškiai–Žibartoniai–Gudžiūnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Ukmergės miestas,115,Ukmergė–Molėtai,2023-11-13,00:00:00,positive,8,34.96,slow,negative,0,,normal
-Mitkūnai,1611,Plikiškiai–Kriukai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Piliakalniai,1506,Satkūnai–Panoteriai–Jasudai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Tarpučiai,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,negative,7,61.54,normal,positive,4,66.03,normal
-Pesčiai,226,Kartena–Kūlupėnai–Salantai,2023-11-13,00:00:00,negative,0,,normal,positive,3,88.57,normal
-Antakalnis I,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,negative,12,95.97,slow,positive,4,100.63,normal
-IX fortas,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,27,82.37,normal,negative,26,89.3,normal
-Senkiškiai,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,positive,7,85.04,heavy,negative,8,80.46,heavy
-Žvirgždėnai,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,negative,5,87.18,normal,positive,2,78.0,heavy
-Leliūnai,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,positive,5,81.26,heavy,negative,6,73.63,heavy
-Akademija,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,positive,41,84.64,normal,negative,53,87.42,normal
-Neveronys,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Virinta,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,positive,4,82.98,heavy,negative,3,79.23,heavy
-Skaidiškės,A3,Vilnius–Minskas,2023-11-13,00:00:00,negative,7,84.54,normal,positive,9,79.81,heavy
-KurėnaiII,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,positive,4,67.73,slow,negative,12,88.23,slow
-Dauparai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,27,91.06,slow,negative,36,93.86,slow
-Keteriai,4516,Skaudvilė–Bijotai–Karyznos,2023-11-13,00:00:00,negative,0,,normal,positive,1,55.6,heavy
-Gaižiūnai 2,124,Kupiškis–Vabalninkas–Biržai,2023-11-13,00:00:00,positive,0,,normal,negative,2,83.4,normal
-Gelnai,A8,Panevėžys–Aristava–Sitkūnai,2023-11-13,00:00:00,positive,8,84.58,normal,negative,16,87.4,normal
-Kiškoniai,2126,Pavydai–Pagryžuvys–Tytuvėnėliai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Gustonys,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Kušliškiai,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Prūsiškiai,3302,Išlaužas–Klebiškis–Igliauka,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Sirutėnai,4921,Sirutėnai–Juodiškis,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Upyna,4107,Upyna–Pagrybis–Kaltinėnai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Šaukava,174,Ukmergė–Raguva–Nevėžis,2023-11-13,00:00:00,positive,3,79.2,heavy,negative,0,,normal
-Aleksandrava,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,positive,11,87.34,normal,negative,17,81.42,normal
-Pakalniškiai,3403,Šilėnai–Sidariai–Šiaulėnai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Poškiškė,1709,Seredžius–Juodaičiai–Mituva–Keryvai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Ščebnica,142,Kaišiadorys–Žiežmariai,2023-11-13,00:00:00,positive,4,53.43,slow,negative,11,62.54,slow
-Onupis,1922,Raudondvaris–Naujieji Bernatoniai–Žemaitkiemis,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Tvirai,192,Skapiškis–Pandėlys,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Alkiškiai,156,Naujoji Akmenė–Venta,2023-11-13,00:00:00,negative,5,82.26,normal,positive,0,,normal
-Kybartai,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,negative,5,50.24,slow,positive,2,48.25,slow
-Ricieliai,2521,Stračiūnai–Ricieliai–Gailiūnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Bingeliai,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,3,81.0,normal,negative,1,98.7,normal
-Kernai,3707,Puodkaliai–Daukšiai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Ilgakiemis,1832,Ilgakiemis–Kasčiukiškės,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Visbarai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Gluobiai,3802,Miknaičiai–Slavikai–Kiduliai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Žvirzdaliai,3206,Plungė–Medingėnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Galmenai,4524,Tauragė–Norkaičiai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Vydmantai,A13,Klaipėda–Liepoja,2023-11-13,00:00:00,positive,5,69.56,normal,negative,5,85.36,normal
-Pikelionys,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,positive,3,85.47,normal,negative,6,81.97,normal
-Ąžulomis,A15,Vilnius–Lyda,2023-11-13,00:00:00,negative,7,75.21,heavy,positive,5,73.6,heavy
-Viburiai,3009,Nauradai–Sujetai–Sinkonys,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Juodbūdis 2,3314,Klebiškis–Juodbūdis–Veiveriai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Gojus,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,23,97.26,heavy,negative,35,97.43,heavy
-Neravai,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,negative,4,68.88,heavy,positive,3,75.67,heavy
-Grygališkė,165,Šilalė–Šilutė,2023-11-13,00:00:00,positive,2,94.05,normal,negative,0,,normal
-Nemirseta,A13,Klaipėda–Liepoja,2023-11-13,00:00:00,negative,7,86.39,normal,positive,10,85.67,normal
-Alkupis,4102,Laukuva–Žadeikiai–Kvėdarna,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Vijoliai,A11,Šiauliai–Palanga,2023-11-13,00:00:00,positive,1,66.2,normal,negative,3,76.47,normal
-Latava,175,Pagojė–Sedeikiai–Viešintos–Nociūnai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Kuršeliai,2219,Kretingalė–Plikiai–Smilgynai,2023-11-13,00:00:00,,0,0.0,0,,0,0.0,0
-Juodeikiai,219,Bugeniai–Pikeliai,2023-11-13,00:00:00,negative,0,,normal,positive,1,89.9,normal
-WIM į Vilnių,A1,Vilnius–Kaunas–Klaipėda,2022-04-06,00:00:00,,0,0.0,0,,0,0.0,0
-Verpena,158,Kelmė–Užventis,2023-11-13,00:00:00,positive,0,,normal,negative,1,67.3,slow
-Alksninė,172,Raudondvaris–Giedraičiai–Molėtai,2023-11-13,00:00:00,,0,0.0,0,,0,0.0,0
-Mikailiškis,116,Širvintos–Rimučiai–Kernavė–Dūkštos,2023-11-13,00:00:00,negative,2,89.35,normal,positive,1,101.1,normal
-Kalnujai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Vainatrakis 2,1913,Rokeliai–Vainatrakis–Pakuonis,2023-11-13,00:00:00,,0,0.0,0,,0,0.0,0
-Truskava,A8,Panevėžys–Aristava–Sitkūnai,2023-11-13,00:00:00,positive,9,84.09,normal,negative,13,81.33,normal
-Čeberakai,177,Visaginas–Ignalinos AE,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Eičiai,147,Tauragė–Pašventys,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Nirtaičiai,148,Raseiniai–Tytuvėnai–Radviliškis,2023-11-13,00:00:00,positive,0,,normal,negative,2,98.8,normal
-Klaipėda,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,29,83.14,normal,positive,29,84.55,normal
-Skrudėnai,108,Vievis–Maišiagala–Nemenčinė,2023-11-13,00:00:00,positive,1,66.8,slow,negative,0,,normal
-Klovainių gatvė,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,positive,57,90.64,normal,negative,72,97.01,normal
-Mokolai,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Norkaičiai,4521,Skaudvilė–Gervėčiai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Vainatrakis,1941,Vainatrakis–Margininkai,2023-11-13,00:00:00,negative,1,68.9,normal,positive,0,,normal
-Ąžuolpamūšė,A10,Panevėžys–Pasvalys–Ryga,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Kanciškiai,5243,Karklinė–Unėniškės,2023-11-13,00:00:00,positive,1,55.2,heavy,negative,0,,normal
-Pažagieniai,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,positive,11,91.43,normal,negative,4,83.6,normal
-Gribžiniai,216,Gargždai–Kretinga,2023-11-13,00:00:00,negative,3,70.73,heavy,positive,4,73.93,heavy
-Endriejavas,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,20,99.38,heavy,negative,8,104.04,heavy
-Libariškis,151,Pakruojis–Linkuva,2023-11-13,00:00:00,negative,0,,normal,positive,2,81.3,normal
-Ginkūnai,213,Aleksandrija–Ginkūnai,2023-11-13,00:00:00,positive,3,48.5,slow,negative,7,45.16,slow
-Eišiškės,105,Pirčiupiai–Eišiškės,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Liminėlis,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,positive,5,97.34,normal,negative,12,91.82,normal
-Senieji Trakai,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,negative,10,88.47,normal,positive,13,77.52,normal
-Aleksandrija,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,negative,5,62.36,normal,positive,9,60.81,normal
-Juknonys,1831,Pakertai–Juknionys,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Gibaičiai,4015,Naisiai–Gibaičiai–Meškuičiai,2023-11-13,00:00:00,negative,0,,normal,positive,1,66.8,normal
-Antupiai,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,positive,6,83.12,normal,negative,6,85.53,normal
-Skardupiai,3807,Kiduliai–Gelgaudiškis–Gerdžiūnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Kryžiškės,202,Vaidotai–Baltoji Vokė,2023-11-13,00:00:00,positive,4,75.05,heavy,negative,3,104.87,normal
-Jurgėnai,A10,Panevėžys–Pasvalys–Ryga,2023-11-13,00:00:00,positive,21,87.19,normal,negative,13,87.85,normal
-Ramygala,A8,Panevėžys–Aristava–Sitkūnai,2023-11-13,00:00:00,negative,17,86.78,normal,positive,13,83.05,normal
-Karmazinai,108,Vievis–Maišiagala–Nemenčinė,2023-11-13,00:00:00,negative,2,89.05,normal,positive,0,,normal
-Perloja,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,3,92.67,normal,negative,2,93.75,normal
-Vaitkūnai,231,Vytinė–Vaitkuškis–Ukmergė,2023-11-13,00:00:00,positive,0,,normal,negative,7,70.99,normal
-Gaudžiai,203,Kuršėnų aplinkkelis,2023-11-13,00:00:00,positive,6,90.98,normal,negative,7,89.86,normal
-Ąžuolytė,3018,Krekenava–Linkaučiai–Truskava,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Kapitoniškės,188,Rumšiškės–Tadarava,2023-11-13,00:00:00,negative,1,84.7,normal,positive,0,,normal
-Pyšna,A15,Vilnius–Lyda,2023-11-13,00:00:00,positive,20,79.49,heavy,negative,4,76.43,heavy
-Veiveriai,230,Mauručiai–Vinčai–Puskelniai,2023-11-13,00:00:00,positive,2,71.85,heavy,negative,1,90.1,normal
-Dautartai,225,Raseiniai–Baisogala,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Viksviniai,1201,Anykščiai–Kurkliai–Balninkai–Želva,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Paberžis,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,positive,11,95.34,slow,negative,16,95.22,heavy
-Medininkai,A3,Vilnius–Minskas,2023-11-13,00:00:00,negative,8,63.68,slow,positive,3,53.17,slow
-Šilinė,114,Molėtai–Kaltanėnai–Ignalina,2023-11-13,00:00:00,positive,1,80.2,normal,negative,3,80.23,normal
-Gabšiai,146,Raseiniai–Šilinė,2023-11-13,00:00:00,positive,4,96.9,normal,negative,4,87.4,normal
-Stirniai,114,Molėtai–Kaltanėnai–Ignalina,2023-11-13,00:00:00,negative,0,,normal,positive,1,81.0,normal
-Virbalis,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,negative,2,78.95,normal,positive,0,,normal
-Mažoji Senažiškė,183,Ąžuolų Būda–Kazlų Rūda,2023-11-13,00:00:00,positive,5,83.08,normal,negative,5,87.0,normal
-Vartai,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,positive,3,69.9,heavy,negative,2,80.65,heavy
-Mažonai,4513,Mažonai–Šakvietis–Šilalė,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Vejukai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,19,92.38,slow,positive,27,101.14,normal
-Diktarai,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,5,54.92,slow,positive,1,84.2,normal
-Gynėvė,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,20,100.8,normal,negative,31,73.23,slow
-Vileikiai,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,positive,2,86.75,heavy,negative,9,101.84,normal
-Juodbūdis,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,positive,17,92.62,normal,negative,5,97.96,normal
-Gumiltėnai,2111,Ramučiai–Vidsodis–Luokė,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Maksimonys,112,Ignalina–Didžiasalis,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Gaudikaičiai,A11,Šiauliai–Palanga,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Bernotiškiai,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,positive,14,79.34,slow,negative,0,,normal
-Vėžaičiai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,20,98.64,heavy,negative,21,100.57,heavy
-Vilijampolė,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,negative,68,91.08,normal,positive,72,91.93,normal
-Draudeniai,4517,Sartininkai–Draudeniai,2023-11-13,00:00:00,,0,0.0,0,,0,0.0,0
-Vynupė,A17,Panevėžio aplinkkelis,2023-11-13,00:00:00,positive,19,91.04,normal,negative,39,90.22,normal
-Algeniai,3515,Algeniai–Stulgiai–Kirkliai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Karpiškiai,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,negative,1,101.1,normal,positive,3,88.5,normal
-Dybakalnis,2637,Privažiuojamasis kelias prie Patašinės nuo kelio Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Šeškiai,4605,Viešvėnai–Luokė–Upyna–Dirvonėnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Ratnyčia,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,1,78.9,heavy,negative,2,77.25,heavy
-Didysis Pirčiupys,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,6,73.07,heavy,negative,8,70.86,heavy
-Antkoptis,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,14,103.36,heavy,positive,24,105.22,heavy
-Malkėstas,A14,Vilnius–Utena,2023-11-13,00:00:00,negative,1,92.3,normal,positive,5,82.34,normal
-Paežeriai,A14,Vilnius–Utena,2023-11-13,00:00:00,negative,6,88.23,normal,positive,10,88.15,normal
-Piniava,A10,Panevėžys–Pasvalys–Ryga,2023-11-13,00:00:00,negative,14,64.67,normal,positive,7,71.84,normal
-Tartokas 2,A15,Vilnius–Lyda,2023-11-13,00:00:00,positive,1,71.6,normal,negative,8,56.94,slow
-Raistas,2012,Šėta–Beinaičiai–Nociūnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Praščiūnai,3406,Šeduvos g. st.–Vadaktai–Krekenava,2023-11-13,00:00:00,,0,0.0,0,,0,0.0,0
-Gedėliškė,4104,Šilalė–Didkiemis,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Kaziuliai,180,Druskininkai–Leipalingis–Seirijai,2023-11-13,00:00:00,negative,1,81.7,normal,positive,4,78.2,heavy
-Kurys 2,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,negative,5,87.76,normal,positive,12,84.88,normal
-Yliai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,16,94.26,slow,positive,23,102.77,normal
-Gaidėnai,4108,Upyna–Varsėdžiai–Naujasis Obelynas,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Šilainėliai,A8,Panevėžys–Aristava–Sitkūnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-WIM į Klaipėdą,A1,Vilnius–Kaunas–Klaipėda,2022-04-06,00:00:00,,0,0.0,0,,0,0.0,0
-Didžiulio ež.,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,52,92.77,normal,positive,30,93.6,normal
-Karašilis,2911,Karašilis–Derveliai–Alksniupiai–Šeduva,2023-11-13,00:00:00,,0,0.0,0,,0,0.0,0
-Palkabalis,5014,Varėna–Rudnia–Katra,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Gaigaliai,175,Pagojė–Sedeikiai–Viešintos–Nociūnai,2023-11-13,00:00:00,positive,2,74.6,heavy,negative,2,82.95,normal
-Meištai,1912,Rupinai–Griškabūdis–Kudirkos Naumiestis,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Giraitė,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,55,102.07,normal,negative,49,102.82,normal
-Kemetiškiai,114,Molėtai–Kaltanėnai–Ignalina,2023-11-13,00:00:00,positive,0,,normal,negative,1,75.4,heavy
-Jiesia,130,Kaunas–Prienai–Alytus,2023-11-13,00:00:00,positive,11,72.05,normal,negative,7,66.9,normal
-Kairiai,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,positive,16,92.64,heavy,negative,13,96.55,heavy
-Čerbai,1702,Šimkaičiai–Stakiai–Graužėnai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Mykoliškiai,A3,Vilnius–Minskas,2023-11-13,00:00:00,negative,6,72.23,heavy,positive,11,81.59,heavy
-Babtai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,22,99.7,heavy,negative,25,99.1,heavy
-Pūkiai,3014,Gegužinė–Puodžiūnai–Sereikoniai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Vandžiogala,A8,Panevėžys–Aristava–Sitkūnai,2023-11-13,00:00:00,negative,13,84.06,normal,positive,19,86.43,normal
-Mikiškiai,192,Skapiškis–Pandėlys,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Paliesius,1408,Mikalavas–Paringys–Bernotai–Gilūtos,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Markutiškės,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,negative,6,82.03,normal,positive,4,79.65,heavy
-Lyta,103,Vilnius–Polockas,2023-11-13,00:00:00,positive,5,69.84,normal,negative,9,69.66,normal
-Kirtimai II,A19,Vilniaus pietinis aplinkkelis,2023-11-13,00:00:00,positive,21,89.45,normal,negative,17,87.19,normal
-Aukštadvaris,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,negative,2,80.65,heavy,positive,2,86.05,heavy
-Daržiniai,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,positive,21,93.28,normal,negative,5,118.88,normal
-Sriauptai,218,Kretinga–Skuodas,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Parudaminys,5228,Parudaminys–Rakonys–Tumosai,2023-11-13,00:00:00,negative,0,,normal,positive,1,93.9,normal
-Smilgiai,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,negative,4,90.05,normal,positive,9,93.02,normal
-Smiltynė 3,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,negative,8,73.49,heavy,positive,10,70.75,heavy
-Trumpaičiai,1610,Dargiai–Jankūnai–Martyniškiai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Paviščionys,3512,Raseiniai–Paupys–Eržvilkas,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Galalauskiai,1416,Didžiasalis–Navikai–Vosiūnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Bubiai 2,215,Bubiai–Ramučiai,2023-11-13,00:00:00,negative,1,78.8,heavy,positive,3,80.53,heavy
-Kieliūgala,3011,Raguva–Šilai–Mikėnai,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Repšiai,A11,Šiauliai–Palanga,2023-11-13,00:00:00,negative,3,84.33,normal,positive,9,89.12,normal
-Pumpėnai,A10,Panevėžys–Pasvalys–Ryga,2023-11-13,00:00:00,negative,14,86.12,normal,positive,28,85.71,normal
-Švendubrė,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,6,76.68,heavy,negative,3,68.8,heavy
-Ožkabaliai,5107,Vilkaviškis–Kalvarija,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Užubaliai,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,negative,36,80.67,normal,positive,32,88.64,normal
-Butrimonys,3305,Stakliškės–Butrimonys,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Utena,208,Pietrytinis Utenos aplinkkelis,2023-11-13,00:00:00,positive,1,75.3,heavy,negative,5,77.66,heavy
-Radikiai,210,Joniškio aplinkkelis,2023-11-13,00:00:00,negative,2,86.9,normal,positive,4,76.1,heavy
-Lapės,232,Vilijampolė–Žeimiai–Šėta,2023-11-13,00:00:00,negative,1,72.0,heavy,positive,5,77.42,heavy
-Rokiškis,122,Daugpilis–Rokiškis–Panevėžys,2023-11-13,00:00:00,positive,1,87.5,normal,negative,1,87.4,normal
-Poškaičiai,5207,Nemenčinė–Eitminiškės–Paberžė,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Spanėnai,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,12,66.39,normal,positive,18,64.28,normal
-Maldeniai,4012,Drąsučiai–Šiupyliai–Gruzdžiai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Knitiškiai,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,1,107.8,normal,positive,2,85.7,normal
-Puskelniai,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,negative,34,78.87,heavy,positive,41,85.98,heavy
-Pakalniškiai II,4207,Žemaičių Naumiestis–Teneniai–Pajūralis,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Barčiai,127,Babriškės–Varėna–Eišiškės,2023-11-13,00:00:00,negative,1,75.8,heavy,positive,2,89.8,heavy
-Narezkai,214,Trakai–Senieji Trakai,2023-11-13,00:00:00,positive,2,60.15,normal,negative,1,77.0,normal
-Duliai,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,0,,normal,positive,1,104.3,normal
-Kaišiadorys,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,38,89.1,slow,negative,4,97.4,heavy
-Garliava,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,negative,43,80.93,heavy,positive,29,82.47,heavy
-Kibyšiai,133,Merkinė–Leipalingis,2023-11-13,00:00:00,negative,2,82.5,normal,positive,0,,normal
-Bareiškiai,123,Biržai–Pandėlys–Rokiškis,2023-11-13,00:00:00,positive,0,,normal,negative,1,103.1,normal
-Mūšia,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,5,48.46,slow,positive,9,49.14,slow
-Berniškiai,3106,Krinčinas–Ličiūnai–Mieliūnai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Bulinskiai,A14,Vilnius–Utena,2023-11-13,00:00:00,positive,5,91.76,normal,negative,0,,normal
-Užliedžiai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Dvarčiškiai,3808,Slavikai–Sudargas,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Baubliai,4818,Rečionys–Obeliai,2023-11-13,00:00:00,negative,1,74.2,normal,positive,0,,normal
-Suginčiai,4903,Utena–Pakalniai–Alanta,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Biruliškės,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,78,90.41,normal,positive,87,95.05,normal
-Bartkuškis II,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,negative,28,88.23,slow,positive,0,,normal
-Lazdėnai,4735,Rykantai–Lazdėnai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Jadvygiškiai,A14,Vilnius–Utena,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Rutka,130,Kaunas–Prienai–Alytus,2023-11-13,00:00:00,positive,2,83.95,normal,negative,7,88.06,normal
-Antalgė,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,6,83.38,normal,positive,5,93.52,normal
-Skriaudžiai,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,positive,21,88.33,normal,negative,4,101.5,normal
-Paupynis,1703,Eržvilkas–Mosteikiai–Nemakščiai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Alvitas,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,negative,4,65.13,normal,positive,5,67.36,normal
-Šilai,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,negative,12,97.36,slow,positive,13,93.45,normal
-Potrai,2218,Kretingalė–Bruzdeilynas,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Nemėžis,A3,Vilnius–Minskas,2023-11-13,00:00:00,negative,19,80.74,heavy,positive,35,87.89,heavy
-Daubariai,204,Mažeikių aplinkkelis,2023-11-13,00:00:00,positive,0,,normal,negative,1,59.9,slow
-Pavartyčiai,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,positive,10,90.96,normal,negative,2,91.4,normal
-Vilkaviškis,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,positive,1,94.8,normal,negative,7,85.49,normal
-Šlapšilė,228,Dauparai–Gargždai–Vėžaičiai,2023-11-13,00:00:00,positive,2,84.85,normal,negative,0,,normal
-Naudžiai,187,Gižai–Pilviškiai,2023-11-13,00:00:00,negative,1,88.7,normal,positive,1,85.4,normal
-Bačkonys,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,0,,normal,negative,1440,171.48,normal
-Ausieniškės,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,32,99.35,heavy,positive,35,96.44,heavy
-Žilpamūšis,A10,Panevėžys–Pasvalys–Ryga,2023-11-13,00:00:00,positive,13,83.32,normal,negative,10,87.74,normal
-Timsriai,4226,Usėnai–Natkiškiai–Griežpelkiai I,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Gargždai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,29,88.12,slow,positive,24,97.28,slow
-Rumšiškės,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,27,100.79,heavy,positive,39,104.56,heavy
-Smėlynė,A6,Kaunas–Zarasai–Daugpilis,2023-11-13,00:00:00,negative,3,52.63,slow,positive,12,49.11,normal
-Trakėnai,A5,Kaunas–Marijampolė–Suvalkai,2023-11-13,00:00:00,positive,29,68.29,heavy,negative,33,82.42,normal
-Senasis Tarpupis,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,15,90.85,normal,negative,12,82.96,normal
-Naujasodžiai 1,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,positive,6,66.28,normal,negative,11,68.75,normal
-Tauzai,169,Skuodas–Plungė,2023-11-13,00:00:00,positive,0,,normal,negative,1,85.1,normal
-Jaščiūnai,A15,Vilnius–Lyda,2023-11-13,00:00:00,positive,6,85.52,normal,negative,6,82.22,normal
-Bliuviškiai,137,Pilviškiai–Šakiai–Jurbarkas,2023-11-13,00:00:00,negative,0,,normal,positive,1,131.1,normal
-Didžioji Riešė,A14,Vilnius–Utena,2023-11-13,00:00:00,negative,13,74.97,heavy,positive,15,68.1,heavy
-Maliancai,4715,Drabužninkai II–Bijūnai I,2023-11-13,00:00:00,positive,1,64.2,normal,negative,0,,normal
-Daunoriškė,1607,Joniškis–Vaineikiai–Šarkiai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Kryžkalnis,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,11,98.62,normal,negative,14,84.17,slow
-Vabolės,162,Laukuva–Šilalė,2023-11-13,00:00:00,positive,1,135.7,normal,negative,2,99.85,normal
-Pagryniai,4239,Šlažai–Pagryniai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Vievis,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,70,80.62,slow,negative,0,,normal
-Budrikai,227,Jakai–Dovilai–Laugaliai,2023-11-13,00:00:00,positive,4,70.45,heavy,negative,2,76.35,normal
-Antapusinis,3508,Viduklės g. st.–Plačiuva–Paupys,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Verėduva,196,Ariogala–Raseiniai–Kryžkalnis,2023-11-13,00:00:00,positive,4,88.53,normal,negative,0,,normal
-Užukampis,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,negative,9,82.54,normal,positive,11,76.24,heavy
-Antanuvka,1218,Kavarskas–Kurkliai,2023-11-13,00:00:00,positive,0,,normal,negative,0,,normal
-Paprėniškiai,115,Ukmergė–Molėtai,2023-11-13,00:00:00,negative,1,117.7,normal,positive,6,97.7,normal
-Stebėkiai II,3022,Ramygala–Stebeikiai,2023-11-13,00:00:00,positive,0,,normal,negative,1,72.4,normal
-Varšauka,1214,Troškūnai–Laukagaliai–Traupis,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Šalnaičiai,A10,Panevėžys–Pasvalys–Ryga,2023-11-13,00:00:00,negative,15,87.74,normal,positive,13,88.9,normal
-Naujieji Valkininkai,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,positive,6,59.55,normal,negative,1,58.8,normal
-Baukštininkai,217,Klaipėda–Jokūbavas,2023-11-13,00:00:00,positive,1,69.0,heavy,negative,0,,normal
-Liepona,A7,Marijampolė–Kybartai–Kaliningradas,2023-11-13,00:00:00,positive,3,29.6,slow,negative,2,17.1,slow
-Molainiai,A17,Panevėžio aplinkkelis,2023-11-13,00:00:00,negative,4,78.35,heavy,positive,17,72.64,heavy
-Kloviškiai,5316,Baibiai–Kloviškiai–Vajasiškis,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Gaižiūnai,2832,Dūdanosiai–Gačkiškiai–Liudgarda,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Mantigailiai,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,negative,12,97.87,heavy,positive,12,102.56,heavy
-Paluknys,A4,Vilnius–Varėna–Gardinas,2023-11-13,00:00:00,negative,6,87.68,normal,positive,13,90.01,normal
-Ežeraitis,A2,Vilnius–Panevėžys,2023-11-13,00:00:00,positive,16,102.39,heavy,negative,17,98.52,normal
-Pasvalys,205,Pasvalio aplinkkelis,2023-11-13,00:00:00,negative,0,,normal,positive,0,,normal
-Škėvonys,A16,Vilnius–Prienai–Marijampolė,2023-11-13,00:00:00,negative,4,87.05,normal,positive,8,84.4,normal
-Kvėdarna,A1,Vilnius–Kaunas–Klaipėda,2023-11-13,00:00:00,positive,27,90.9,slow,negative,14,97.07,slow
-Šniūraičiai,A9,Panevėžys–Šiauliai,2023-11-13,00:00:00,positive,17,93.46,heavy,negative,13,90.71,heavy
+Location,Road,Road_Name,Time_Interval,Date,Time,Direction_Negative,Number_of_Vehicles,Average_Speed,Traffic_Type,Direction_Positive,Number_of_Vehicles,Average_Speed,Traffic_Type
+Barskūnai,5230,Paberžė–Barskūnai–Medžiukai,15,2023-11-14,00:00:00,negative,8,51.94,normal,positive,0,,normal
+Vartai,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,positive,22,64.48,slow,negative,21,57.91,slow
+Kibyšiai,133,Merkinė–Leipalingis,15,2023-11-14,00:00:00,positive,11,88.23,normal,negative,7,84.37,normal
+Sirutėnai,4921,Sirutėnai–Juodiškis,15,2023-11-14,00:00:00,negative,1,55.8,heavy,positive,1,37.3,slow
+Vaitkūnai,231,Vytinė–Vaitkuškis–Ukmergė,16,2023-11-14,00:00:00,positive,16,75.36,normal,negative,22,69.12,normal
+Stebėkiai II,3022,Ramygala–Stebeikiai,15,2023-11-14,00:00:00,negative,2,80.75,normal,positive,0,,normal
+Leliūnai,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,28,79.6,heavy,positive,34,78.28,heavy
+Bartkuškis II,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,negative,277,87.49,slow,positive,1,68.0,slow
+Utena,208,Pietrytinis Utenos aplinkkelis,16,2023-11-14,00:00:00,positive,23,80.1,heavy,negative,40,80.09,heavy
+Vilkaviškis,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,positive,28,81.11,normal,negative,22,83.65,normal
+Dobrovolė,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,98,76.77,heavy,negative,109,78.79,normal
+Ąžulomis,A15,Vilnius–Lyda,15,2023-11-14,00:00:00,negative,52,71.7,heavy,positive,65,70.7,heavy
+Biruliškės,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,488,91.4,normal,negative,702,91.11,normal
+Upyna,4107,Upyna–Pagrybis–Kaltinėnai,15,2023-11-14,00:00:00,positive,0,,normal,negative,3,69.37,normal
+Juodbūdis 2,3314,Klebiškis–Juodbūdis–Veiveriai,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Rūdninkai,176,Pirčiupiai–Jašiūnai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Antalgė,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,31,82.8,normal,positive,41,89.68,normal
+Kybartai,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,positive,35,50.23,slow,negative,36,54.78,heavy
+Karmazinai,108,Vievis–Maišiagala–Nemenčinė,15,2023-11-14,00:00:00,positive,27,83.14,normal,negative,31,90.43,normal
+Pakalniškiai II,4207,Žemaičių Naumiestis–Teneniai–Pajūralis,15,2023-11-14,00:00:00,negative,1,35.8,slow,positive,0,,normal
+Neravai,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,26,68.21,heavy,negative,25,68.04,heavy
+Senasis Tarpupis,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,62,87.96,normal,negative,89,85.33,normal
+Didžiuliai,3527,Didžiuliai–Stanioniai,15,2023-11-14,00:00:00,negative,2,58.85,heavy,positive,3,67.03,heavy
+Kalibatas,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,positive,45,88.73,heavy,negative,45,75.53,heavy
+Jiesia,130,Kaunas–Prienai–Alytus,15,2023-11-14,00:00:00,negative,84,72.78,normal,positive,89,70.92,normal
+Varšauka,1214,Troškūnai–Laukagaliai–Traupis,15,2023-11-14,00:00:00,positive,1,64.2,normal,negative,0,,normal
+Biruliškės 3,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Spanėnai,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,149,63.95,normal,positive,100,63.16,normal
+Antkoptis,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,101,103.92,heavy,negative,83,107.88,heavy
+Truskava,A8,Panevėžys–Aristava–Sitkūnai,15,2023-11-14,00:00:00,positive,53,81.65,heavy,negative,54,74.95,heavy
+Biruliškės 1,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,306,95.98,heavy,negative,443,101.98,heavy
+Antupiai,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,positive,57,77.04,normal,negative,45,74.64,normal
+Kupsčiai,3520,Ilgižiai–Kupsčiai,15,2023-11-14,00:00:00,,0,0.0,0,,0,0.0,0
+Gabšiai,146,Raseiniai–Šilinė,15,2023-11-14,00:00:00,negative,33,85.94,normal,positive,33,90.67,normal
+Kiškoniai,2126,Pavydai–Pagryžuvys–Tytuvėnėliai,15,2023-11-14,00:00:00,positive,2,75.45,normal,negative,0,,normal
+Karpiškiai,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,negative,21,81.29,normal,positive,26,81.79,normal
+Gaudžiai,203,Kuršėnų aplinkkelis,15,2023-11-14,00:00:00,negative,60,81.57,normal,positive,59,83.04,normal
+Poškiškė,1709,Seredžius–Juodaičiai–Mituva–Keryvai,15,2023-11-14,00:00:00,positive,3,87.67,normal,negative,1,121.9,normal
+Tarpučiai,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,positive,58,55.32,normal,negative,62,54.27,normal
+Kairiai,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,negative,89,94.41,heavy,positive,88,96.0,heavy
+Parudaminys,5228,Parudaminys–Rakonys–Tumosai,15,2023-11-14,00:00:00,negative,1,80.4,normal,positive,2,80.75,normal
+Šeškiai,4605,Viešvėnai–Luokė–Upyna–Dirvonėnai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Ausieniškės,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,267,102.74,heavy,negative,307,106.46,heavy
+Senieji Trakai,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,positive,56,76.84,normal,negative,79,76.43,normal
+Repšiai,A11,Šiauliai–Palanga,15,2023-11-14,00:00:00,positive,80,91.09,normal,negative,74,87.6,normal
+Bačkonys,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,1461,169.44,normal,positive,0,,normal
+Gargždai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,139,89.56,slow,negative,124,87.15,slow
+Aleksandrava,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,positive,49,83.71,normal,negative,47,83.76,normal
+Virbalis,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,negative,46,78.28,normal,positive,33,80.6,normal
+Gedėliškė,4104,Šilalė–Didkiemis,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Eigirgala,222,Kaunas–Vandžiogala,15,2023-11-14,00:00:00,positive,7,69.81,heavy,negative,7,68.14,heavy
+Alksninė,172,Raudondvaris–Giedraičiai–Molėtai,15,2023-11-14,00:00:00,,0,0.0,0,,0,0.0,0
+Garliava,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,negative,212,83.92,normal,positive,153,89.19,normal
+Liepona,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,negative,9,34.86,slow,positive,5,30.72,slow
+Antapusinis,3508,Viduklės g. st.–Plačiuva–Paupys,15,2023-11-14,00:00:00,positive,1,96.6,normal,negative,0,,normal
+Avietinė,104,Šalčininkai–Dieveniškės–Krakūnai ,15,2023-11-14,00:00:00,positive,1,69.3,heavy,negative,0,,normal
+Gojus,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,266,99.94,heavy,positive,265,103.13,heavy
+Onupis,1922,Raudondvaris–Naujieji Bernatoniai–Žemaitkiemis,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Lyta,103,Vilnius–Polockas,15,2023-11-14,00:00:00,negative,59,66.84,normal,positive,37,51.1,slow
+Paprėniškiai,115,Ukmergė–Molėtai,15,2023-11-14,00:00:00,negative,16,87.66,normal,positive,27,85.07,normal
+Pakalniškiai,3403,Šilėnai–Sidariai–Šiaulėnai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Kemetiškiai,114,Molėtai–Kaltanėnai–Ignalina,15,2023-11-14,00:00:00,negative,8,75.64,heavy,positive,14,73.01,heavy
+Ilgakiemis,1832,Ilgakiemis–Kasčiukiškės,15,2023-11-14,00:00:00,negative,4,73.75,normal,positive,0,,normal
+Draudeniai,4517,Sartininkai–Draudeniai,15,2023-11-14,00:00:00,,0,0.0,0,,0,0.0,0
+Mantigailiai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,135,106.92,heavy,positive,137,109.43,heavy
+Ginkūnai,213,Aleksandrija–Ginkūnai,15,2023-11-14,00:00:00,negative,44,48.58,slow,positive,41,49.61,slow
+Baukštininkai,217,Klaipėda–Jokūbavas,15,2023-11-14,00:00:00,positive,19,72.99,heavy,negative,23,72.07,heavy
+Naujasodžiai 1,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,positive,61,56.17,normal,negative,55,57.68,normal
+Daunoriškė,1607,Joniškis–Vaineikiai–Šarkiai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Endriejavas,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,82,104.81,heavy,positive,102,95.93,slow
+Kapitoniškės,188,Rumšiškės–Tadarava,15,2023-11-14,00:00:00,negative,13,82.78,normal,positive,16,88.41,normal
+Ščebnica,142,Kaišiadorys–Žiežmariai,15,2023-11-14,00:00:00,negative,55,56.97,slow,positive,65,58.08,slow
+Raistas,2012,Šėta–Beinaičiai–Nociūnai,15,2023-11-14,00:00:00,positive,0,,normal,negative,1,11.2,queuing
+WIM į Vilnių,A1,Vilnius–Kaunas–Klaipėda,3,2022-04-06,00:00:00,,0,0.0,0,,0,0.0,0
+Babtai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,135,103.49,heavy,positive,162,105.39,heavy
+Trakėnai,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,negative,55,79.84,heavy,positive,76,68.13,heavy
+Norkaičiai,4521,Skaudvilė–Gervėčiai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Šniūraičiai,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,positive,89,92.59,heavy,negative,98,91.3,heavy
+Žilpamūšis,A10,Panevėžys–Pasvalys–Ryga,15,2023-11-14,00:00:00,negative,23,87.33,normal,positive,51,82.56,normal
+Jurgėnai,A10,Panevėžys–Pasvalys–Ryga,15,2023-11-14,00:00:00,negative,68,82.14,normal,positive,71,85.8,normal
+Didysis Pirčiupys,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,48,72.41,heavy,negative,46,69.73,heavy
+Skriaudžiai,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,negative,40,106.88,normal,positive,107,93.73,normal
+Juodbūdis,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,positive,109,94.03,normal,negative,49,113.79,normal
+Paliesius,1408,Mikalavas–Paringys–Bernotai–Gilūtos,15,2023-11-14,00:00:00,negative,1,70.5,normal,positive,2,64.25,normal
+Pavartyčiai,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,positive,77,85.01,normal,negative,82,88.29,normal
+Praščiūnai,3406,Šeduvos g. st.–Vadaktai–Krekenava,15,2023-11-14,00:00:00,,0,0.0,0,,0,0.0,0
+Daržiniai,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,33,107.84,normal,positive,77,98.37,normal
+Antanuvka,1218,Kavarskas–Kurkliai,15,2023-11-14,00:00:00,positive,1,59.8,heavy,negative,2,65.2,normal
+Kaziuliai,180,Druskininkai–Leipalingis–Seirijai,15,2023-11-14,00:00:00,negative,25,91.5,normal,positive,37,96.18,normal
+Molainiai,A17,Panevėžio aplinkkelis,15,2023-11-14,00:00:00,negative,27,81.91,normal,positive,71,73.74,heavy
+Vejukai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,79,103.77,heavy,positive,108,102.41,heavy
+Šilinė,114,Molėtai–Kaltanėnai–Ignalina,15,2023-11-14,00:00:00,positive,18,69.19,normal,negative,10,74.15,normal
+Timsriai,4226,Usėnai–Natkiškiai–Griežpelkiai I,15,2023-11-14,00:00:00,negative,0,,normal,positive,1,58.9,heavy
+Šilainėliai,A8,Panevėžys–Aristava–Sitkūnai,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Šalnaičiai,A10,Panevėžys–Pasvalys–Ryga,15,2023-11-14,00:00:00,positive,35,86.4,normal,negative,25,87.91,normal
+Ratnyčia,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,negative,5,76.02,heavy,positive,12,73.23,heavy
+Pūkiai,3014,Gegužinė–Puodžiūnai–Sereikoniai,15,2023-11-14,00:00:00,positive,1,65.3,normal,negative,0,,normal
+Ukmergės miestas,115,Ukmergė–Molėtai,14,2023-11-14,00:00:00,negative,10,35.18,slow,positive,21,34.89,slow
+Mokolai,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Stirniai,114,Molėtai–Kaltanėnai–Ignalina,16,2023-11-14,00:00:00,negative,7,56.24,normal,positive,7,58.79,normal
+Vabolės,162,Laukuva–Šilalė,15,2023-11-14,00:00:00,negative,24,76.0,heavy,positive,28,80.51,heavy
+Maldeniai,4012,Drąsučiai–Šiupyliai–Gruzdžiai,15,2023-11-14,00:00:00,negative,1,91.1,normal,positive,1,54.4,heavy
+Maksimonys,112,Ignalina–Didžiasalis,15,2023-11-14,00:00:00,negative,9,92.82,normal,positive,11,77.45,heavy
+Rokiškis,122,Daugpilis–Rokiškis–Panevėžys,14,2023-11-14,00:00:00,negative,24,95.52,normal,positive,13,82.5,normal
+Juknonys,1831,Pakertai–Juknionys,15,2023-11-14,00:00:00,positive,1,76.8,normal,negative,2,36.25,slow
+Ežeraitis,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,negative,153,103.77,normal,positive,175,109.71,heavy
+Palkabalis,5014,Varėna–Rudnia–Katra,15,2023-11-14,00:00:00,negative,1,84.1,normal,positive,2,46.95,slow
+Butrimonys,3305,Stakliškės–Butrimonys,15,2023-11-14,00:00:00,positive,3,70.13,normal,negative,1,46.0,slow
+Potrai,2218,Kretingalė–Bruzdeilynas,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Šilai,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,negative,83,104.21,heavy,positive,71,107.71,heavy
+IX fortas,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,176,80.12,normal,negative,184,24.77,slow
+Gelnai,A8,Panevėžys–Aristava–Sitkūnai,15,2023-11-14,00:00:00,negative,80,82.91,normal,positive,79,83.56,normal
+Užubaliai,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,negative,439,78.98,normal,positive,225,77.57,heavy
+Mikiškiai,192,Skapiškis–Pandėlys,14,2023-11-14,00:00:00,negative,8,81.06,normal,positive,10,78.23,heavy
+Piliakalniai,1506,Satkūnai–Panoteriai–Jasudai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Smilgiai,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,negative,52,91.06,normal,positive,38,84.93,normal
+Šaukava,174,Ukmergė–Raguva–Nevėžis,15,2023-11-14,00:00:00,positive,9,82.84,normal,negative,14,92.96,normal
+Dvarčiškiai,3808,Slavikai–Sudargas,15,2023-11-14,00:00:00,negative,2,58.95,heavy,positive,0,,normal
+Galalauskiai,1416,Didžiasalis–Navikai–Vosiūnai,15,2023-11-14,00:00:00,negative,6,72.78,normal,positive,0,,normal
+Ožkabaliai,5107,Vilkaviškis–Kalvarija,15,2023-11-14,00:00:00,positive,0,,normal,negative,1,95.2,normal
+Margininkai,3019,Mairiškiai–Žibartoniai–Gudžiūnai,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Kieliūgala,3011,Raguva–Šilai–Mikėnai,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Akademija,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,negative,284,86.96,normal,positive,276,87.08,normal
+Visbarai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Alkiškiai,156,Naujoji Akmenė–Venta,15,2023-11-14,00:00:00,positive,18,80.51,heavy,negative,31,81.87,normal
+Miškonys,102,Vilnius–Švenčionys–Zarasai,15,2023-11-14,00:00:00,positive,63,74.35,normal,negative,124,77.98,normal
+Medininkai,A3,Vilnius–Minskas,15,2023-11-14,00:00:00,positive,8,46.9,slow,negative,12,65.06,slow
+Klaipėda,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,256,83.31,normal,positive,268,88.47,normal
+Aukštadvaris,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,negative,35,83.07,normal,positive,22,86.73,normal
+Pyšna,A15,Vilnius–Lyda,15,2023-11-14,00:00:00,negative,59,81.91,normal,positive,32,80.52,heavy
+Dautartai,225,Raseiniai–Baisogala,15,2023-11-14,00:00:00,negative,18,92.4,normal,positive,11,90.08,normal
+Nirtaičiai,148,Raseiniai–Tytuvėnai–Radviliškis,15,2023-11-14,00:00:00,positive,14,81.34,normal,negative,17,83.87,normal
+Gaidėnai,4108,Upyna–Varsėdžiai–Naujasis Obelynas,15,2023-11-14,00:00:00,negative,1,40.6,slow,positive,0,,normal
+Mažonai,4513,Mažonai–Šakvietis–Šilalė,15,2023-11-14,00:00:00,negative,0,,normal,positive,1,77.8,normal
+Lapės,232,Vilijampolė–Žeimiai–Šėta,15,2023-11-14,00:00:00,positive,41,77.31,heavy,negative,36,87.74,normal
+Gynėvė,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,102,73.73,slow,positive,97,104.16,normal
+Yliai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,84,110.46,heavy,positive,99,111.25,heavy
+Bareiškiai,123,Biržai–Pandėlys–Rokiškis,15,2023-11-14,00:00:00,positive,23,91.53,normal,negative,12,87.59,normal
+Poškaičiai,5207,Nemenčinė–Eitminiškės–Paberžė,15,2023-11-14,00:00:00,positive,8,78.81,normal,negative,7,80.17,normal
+Gribžiniai,216,Gargždai–Kretinga,15,2023-11-14,00:00:00,positive,30,76.2,heavy,negative,41,79.38,heavy
+Užliedžiai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Kryžiškės,202,Vaidotai–Baltoji Vokė,15,2023-11-14,00:00:00,positive,22,62.65,slow,negative,32,74.62,heavy
+Naujieji Valkininkai,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,40,55.86,normal,negative,41,58.48,normal
+Pumpėnai,A10,Panevėžys–Pasvalys–Ryga,15,2023-11-14,00:00:00,negative,39,42.36,slow,positive,85,58.97,slow
+Libariškis,151,Pakruojis–Linkuva,15,2023-11-14,00:00:00,negative,26,75.47,heavy,positive,23,80.9,heavy
+Prūsiškiai,3302,Išlaužas–Klebiškis–Igliauka,15,2023-11-14,00:00:00,negative,0,,normal,positive,1,50.9,slow
+Kaišiadorys,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,88,106.61,heavy,positive,270,98.89,heavy
+Paluknys,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,67,75.06,heavy,negative,72,79.22,heavy
+Čerbai,1702,Šimkaičiai–Stakiai–Graužėnai,15,2023-11-14,00:00:00,negative,2,89.5,normal,positive,4,71.43,normal
+Didžiulio ež.,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,368,98.05,normal,positive,268,99.6,normal
+Maliancai,4715,Drabužninkai II–Bijūnai I,15,2023-11-14,00:00:00,positive,3,76.63,heavy,negative,3,57.57,heavy
+Rumšiškės,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,296,109.05,normal,positive,277,104.71,heavy
+Gluobiai,3802,Miknaičiai–Slavikai–Kiduliai,15,2023-11-14,00:00:00,negative,1,22.6,slow,positive,0,,normal
+Eišiškės,105,Pirčiupiai–Eišiškės,15,2023-11-14,00:00:00,positive,1,74.1,heavy,negative,1,94.9,normal
+Dauparai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,171,102.8,heavy,positive,246,100.48,heavy
+Kernai,3707,Puodkaliai–Daukšiai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Verėduva,196,Ariogala–Raseiniai–Kryžkalnis,15,2023-11-14,00:00:00,negative,7,87.49,normal,positive,7,84.56,normal
+Gibaičiai,4015,Naisiai–Gibaičiai–Meškuičiai,15,2023-11-14,00:00:00,positive,2,73.7,normal,negative,1,67.9,normal
+KurėnaiII,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,negative,75,96.64,slow,positive,67,85.44,slow
+Virinta,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,14,71.31,heavy,positive,29,69.27,heavy
+Nemirseta,A13,Klaipėda–Liepoja,15,2023-11-14,00:00:00,positive,83,85.51,normal,negative,84,85.98,normal
+Diktarai,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,16,70.75,heavy,positive,30,84.15,heavy
+Markutiškės,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,positive,30,81.3,normal,negative,30,82.89,normal
+Smiltynė 3,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,negative,87,76.14,heavy,positive,93,74.35,heavy
+Piniava,A10,Panevėžys–Pasvalys–Ryga,15,2023-11-14,00:00:00,negative,42,61.85,heavy,positive,41,62.53,heavy
+WIM į Klaipėdą,A1,Vilnius–Kaunas–Klaipėda,2,2022-04-06,00:00:00,,0,0.0,0,,0,0.0,0
+Radikiai,210,Joniškio aplinkkelis,15,2023-11-14,00:00:00,negative,29,88.32,normal,positive,16,92.49,normal
+Vievis,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,2,34.9,slow,positive,387,79.93,slow
+Eičiai,147,Tauragė–Pašventys,15,2023-11-14,00:00:00,negative,19,88.43,normal,positive,15,80.37,heavy
+Skardupiai,3807,Kiduliai–Gelgaudiškis–Gerdžiūnai,15,2023-11-14,00:00:00,positive,2,67.25,normal,negative,1,85.0,normal
+Liminėlis,A6,Kaunas–Zarasai–Daugpilis,14,2023-11-14,00:00:00,negative,19,87.29,normal,positive,9,85.01,normal
+Rūdėniškės,113,Dūkštas–Visaginas,16,2023-11-14,00:00:00,positive,0,,normal,negative,9,80.44,heavy
+Ramygala,A8,Panevėžys–Aristava–Sitkūnai,15,2023-11-14,00:00:00,negative,49,79.78,heavy,positive,53,80.81,heavy
+Ąžuolytė,3018,Krekenava–Linkaučiai–Truskava,15,2023-11-14,00:00:00,negative,1,87.6,normal,positive,0,,normal
+Bernotiškiai,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,negative,3,29.53,queuing,positive,126,82.91,slow
+Upytė,195,Kėdainiai–Krekenava–Panevėžys,16,2023-11-14,00:00:00,positive,24,102.65,normal,negative,31,84.29,normal
+Giedraičiai,A14,Vilnius–Utena,15,2023-11-14,00:00:00,negative,46,93.24,normal,positive,52,90.92,normal
+Knitiškiai,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,negative,31,91.67,normal,positive,34,91.97,normal
+Meiliškiai,2016,Mantviliškis–Ažytėnai–Vosyliškis,15,2023-11-14,00:00:00,negative,1,74.4,normal,positive,2,73.25,normal
+Kirtimai II,A19,Vilniaus pietinis aplinkkelis,15,2023-11-14,00:00:00,negative,160,87.69,normal,positive,210,87.14,normal
+Vainatrakis,1941,Vainatrakis–Margininkai,15,2023-11-14,00:00:00,positive,0,,normal,negative,14,96.76,normal
+Pažagieniai,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,positive,59,91.85,normal,negative,65,91.15,normal
+Malkėstas,A14,Vilnius–Utena,15,2023-11-14,00:00:00,positive,37,91.41,normal,negative,27,89.06,normal
+Vynupė,A17,Panevėžio aplinkkelis,15,2023-11-14,00:00:00,positive,49,81.29,normal,negative,97,84.97,normal
+Lančiūnava,A8,Panevėžys–Aristava–Sitkūnai,15,2023-11-14,00:00:00,positive,58,87.59,normal,negative,48,84.95,normal
+Ricieliai,2521,Stračiūnai–Ricieliai–Gailiūnai,15,2023-11-14,00:00:00,negative,6,87.42,normal,positive,1,78.8,normal
+Berniškiai,3106,Krinčinas–Ličiūnai–Mieliūnai,15,2023-11-14,00:00:00,negative,4,74.2,normal,positive,1,95.1,normal
+Duliai,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,positive,8,80.41,heavy,negative,0,,normal
+Lazdėnai,4735,Rykantai–Lazdėnai,15,2023-11-14,00:00:00,positive,1,43.6,slow,negative,1,58.0,heavy
+Kanciškiai,5243,Karklinė–Unėniškės,15,2023-11-14,00:00:00,negative,1,82.6,normal,positive,0,,normal
+Užukampis,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,negative,91,74.24,heavy,positive,106,72.57,heavy
+Aukštvilkiai,4526,Lauksargiai–Aukštvilkiai,15,2023-11-14,00:00:00,negative,2,74.45,normal,positive,0,,normal
+Tauzai,169,Skuodas–Plungė,15,2023-11-14,00:00:00,positive,14,91.23,normal,negative,16,93.21,normal
+Sriauptai,218,Kretinga–Skuodas,15,2023-11-14,00:00:00,negative,14,81.74,normal,positive,9,83.2,normal
+Grygališkė,165,Šilalė–Šilutė,15,2023-11-14,00:00:00,positive,18,86.34,normal,negative,12,88.3,normal
+Pagryniai,4239,Šlažai–Pagryniai,15,2023-11-14,00:00:00,positive,0,,normal,negative,5,60.12,heavy
+Mykoliškiai,A3,Vilnius–Minskas,15,2023-11-14,00:00:00,negative,41,75.09,heavy,positive,27,77.92,heavy
+Viksviniai,1201,Anykščiai–Kurkliai–Balninkai–Želva,15,2023-11-14,00:00:00,negative,3,85.33,normal,positive,2,72.4,normal
+Didžioji Riešė,A14,Vilnius–Utena,15,2023-11-14,00:00:00,positive,137,71.27,heavy,negative,157,78.32,heavy
+Šlapšilė,228,Dauparai–Gargždai–Vėžaičiai,15,2023-11-14,00:00:00,negative,40,73.25,heavy,positive,39,67.81,heavy
+Keteriai,4516,Skaudvilė–Bijotai–Karyznos,15,2023-11-14,00:00:00,negative,6,63.4,normal,positive,2,63.9,normal
+Paviščionys,3512,Raseiniai–Paupys–Eržvilkas,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Bulinskiai,A14,Vilnius–Utena,15,2023-11-14,00:00:00,negative,0,,normal,positive,38,89.23,normal
+Alkupis,4102,Laukuva–Žadeikiai–Kvėdarna,15,2023-11-14,00:00:00,negative,1,51.8,slow,positive,2,43.9,slow
+Budrikai,227,Jakai–Dovilai–Laugaliai,15,2023-11-14,00:00:00,negative,46,65.92,normal,positive,53,61.48,slow
+Paežeriai,A14,Vilnius–Utena,15,2023-11-14,00:00:00,negative,96,91.46,normal,positive,109,94.31,normal
+Gaižiūnai 2,124,Kupiškis–Vabalninkas–Biržai,16,2023-11-14,00:00:00,positive,16,102.76,normal,negative,16,93.5,normal
+Vileikiai,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,positive,106,92.85,heavy,negative,115,105.23,normal
+Vėžaičiai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,102,98.22,heavy,negative,83,102.45,heavy
+Suginčiai,4903,Utena–Pakalniai–Alanta,15,2023-11-14,00:00:00,negative,0,,normal,positive,1,69.7,normal
+Perloja,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,3,91.07,normal,negative,6,84.9,normal
+Gaižiūnai,2832,Dūdanosiai–Gačkiškiai–Liudgarda,15,2023-11-14,00:00:00,positive,1,63.4,normal,negative,0,,normal
+Juodeikiai,219,Bugeniai–Pikeliai,15,2023-11-14,00:00:00,negative,16,87.46,normal,positive,19,84.96,normal
+Čeberakai,177,Visaginas–Ignalinos AE,16,2023-11-14,00:00:00,negative,7,90.61,normal,positive,9,86.54,normal
+Švendubrė,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,positive,6,80.85,heavy,negative,4,79.68,heavy
+Bliuviškiai,137,Pilviškiai–Šakiai–Jurbarkas,15,2023-11-14,00:00:00,positive,12,86.6,normal,negative,17,84.06,normal
+Barčiai,127,Babriškės–Varėna–Eišiškės,15,2023-11-14,00:00:00,positive,27,72.43,heavy,negative,19,72.77,heavy
+Mažoji Senažiškė,183,Ąžuolų Būda–Kazlų Rūda,15,2023-11-14,00:00:00,positive,38,74.7,normal,negative,26,74.1,heavy
+Tautušiai,225,Raseiniai–Baisogala,15,2023-11-14,00:00:00,negative,12,101.97,normal,positive,7,90.71,normal
+Verpena,158,Kelmė–Užventis,15,2023-11-14,00:00:00,positive,7,82.31,heavy,negative,12,80.81,heavy
+Vandžiogala,A8,Panevėžys–Aristava–Sitkūnai,15,2023-11-14,00:00:00,negative,77,80.39,heavy,positive,63,83.91,heavy
+Žvirgždėnai,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,negative,50,82.72,normal,positive,54,85.75,normal
+Dybakalnis,2637,Privažiuojamasis kelias prie Patašinės nuo kelio Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Vainatrakis 2,1913,Rokeliai–Vainatrakis–Pakuonis,15,2023-11-14,00:00:00,,0,0.0,0,,0,0.0,0
+Paberžis,A2,Vilnius–Panevėžys,14,2023-11-14,00:00:00,positive,65,92.44,slow,negative,84,91.26,heavy
+Nemėžis,A3,Vilnius–Minskas,15,2023-11-14,00:00:00,negative,150,83.14,normal,positive,107,88.48,normal
+Tvirai,192,Skapiškis–Pandėlys,14,2023-11-14,00:00:00,positive,3,64.2,slow,negative,1,64.7,slow
+Gumiltėnai,2111,Ramučiai–Vidsodis–Luokė,15,2023-11-14,00:00:00,positive,2,59.85,heavy,negative,0,,normal
+Mūšia,A6,Kaunas–Zarasai–Daugpilis,15,2023-11-14,00:00:00,positive,64,53.21,slow,negative,53,49.26,slow
+Jaščiūnai,A15,Vilnius–Lyda,14,2023-11-14,00:00:00,negative,44,82.77,normal,positive,33,83.62,normal
+Ąžuolpamūšė,A10,Panevėžys–Pasvalys–Ryga,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Trumpaičiai,1610,Dargiai–Jankūnai–Martyniškiai,15,2023-11-14,00:00:00,negative,2,74.2,normal,positive,1,76.6,normal
+Algeniai,3515,Algeniai–Stulgiai–Kirkliai,15,2023-11-14,00:00:00,negative,0,,normal,positive,1,72.4,normal
+Neveronys,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Alvitas,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,positive,30,61.89,normal,negative,61,62.03,normal
+Gustonys,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Kryžkalnis,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,84,106.65,heavy,negative,81,102.93,heavy
+Viburiai,3009,Nauradai–Sujetai–Sinkonys,15,2023-11-14,00:00:00,positive,2,51.25,slow,negative,1,64.5,normal
+Pagojys I,4512,Skaudvilė–Adakavas–Nemakščiai,15,2023-11-14,00:00:00,positive,0,,normal,negative,5,60.12,heavy
+Bubiai 2,215,Bubiai–Ramučiai,15,2023-11-14,00:00:00,positive,16,71.46,heavy,negative,26,73.96,heavy
+Baubliai,4818,Rečionys–Obeliai,15,2023-11-14,00:00:00,negative,2,42.5,slow,positive,1,30.9,slow
+Kuršeliai,2219,Kretingalė–Plikiai–Smilgynai,15,2023-11-14,00:00:00,,0,0.0,0,,0,0.0,0
+Veiveriai,230,Mauručiai–Vinčai–Puskelniai,15,2023-11-14,00:00:00,positive,22,78.27,heavy,negative,32,83.13,normal
+Škėvonys,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,positive,90,82.4,heavy,negative,88,78.67,heavy
+Ražiškiai,139,Kauno HE–Garliava,15,2023-11-14,00:00:00,positive,72,78.21,heavy,negative,108,79.25,heavy
+Vydmantai,A13,Klaipėda–Liepoja,10,2023-11-14,00:00:00,positive,38,81.29,normal,negative,28,92.86,normal
+Vijoliai,A11,Šiauliai–Palanga,15,2023-11-14,00:00:00,positive,72,71.92,normal,negative,61,76.43,normal
+Antakalnis I,A2,Vilnius–Panevėžys,15,2023-11-14,00:00:00,positive,100,108.22,heavy,negative,107,102.08,heavy
+Rutka,130,Kaunas–Prienai–Alytus,15,2023-11-14,00:00:00,negative,41,84.87,normal,positive,70,85.6,normal
+Jadvygiškiai,A14,Vilnius–Utena,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Senkiškiai,A7,Marijampolė–Kybartai–Kaliningradas,15,2023-11-14,00:00:00,positive,66,84.28,heavy,negative,70,78.0,heavy
+Galmenai,4524,Tauragė–Norkaičiai,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Kvėdarna,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,90,100.5,heavy,negative,70,106.31,heavy
+Gaudikaičiai,A11,Šiauliai–Palanga,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Skrudėnai,108,Vievis–Maišiagala–Nemenčinė,15,2023-11-14,00:00:00,positive,26,72.52,heavy,negative,14,81.64,normal
+Mitkūnai,1611,Plikiškiai–Kriukai,15,2023-11-14,00:00:00,negative,1,89.7,normal,positive,2,89.85,normal
+Giraitė,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,negative,348,94.88,normal,positive,243,98.02,normal
+Karašilis,2911,Karašilis–Derveliai–Alksniupiai–Šeduva,15,2023-11-14,00:00:00,,0,0.0,0,,0,0.0,0
+Lupenka,102,Vilnius–Švenčionys–Zarasai,15,2023-11-14,00:00:00,negative,13,89.84,normal,positive,24,87.58,normal
+Smėlynė,A6,Kaunas–Zarasai–Daugpilis,14,2023-11-14,00:00:00,negative,13,61.12,slow,positive,10,50.05,normal
+Vilijampolė,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,positive,794,88.59,normal,negative,340,80.81,normal
+Aleksandrija,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,negative,36,52.79,heavy,positive,69,50.43,heavy
+Daubariai,204,Mažeikių aplinkkelis,15,2023-11-14,00:00:00,positive,23,73.47,heavy,negative,19,72.59,heavy
+Pesčiai,226,Kartena–Kūlupėnai–Salantai,15,2023-11-14,00:00:00,positive,13,88.57,normal,negative,13,86.5,normal
+Kurys 2,A9,Panevėžys–Šiauliai,15,2023-11-14,00:00:00,negative,73,85.08,normal,positive,61,85.11,normal
+Gaigaliai,175,Pagojė–Sedeikiai–Viešintos–Nociūnai,14,2023-11-14,00:00:00,negative,6,97.22,normal,positive,9,89.3,normal
+Meištai,1912,Rupinai–Griškabūdis–Kudirkos Naumiestis,15,2023-11-14,00:00:00,negative,0,,normal,positive,1,67.9,normal
+Bingeliai,A4,Vilnius–Varėna–Gardinas,15,2023-11-14,00:00:00,negative,38,87.12,normal,positive,24,86.47,normal
+Pikelionys,A16,Vilnius–Prienai–Marijampolė,15,2023-11-14,00:00:00,positive,23,81.81,normal,negative,35,82.36,normal
+Kloviškiai,5316,Baibiai–Kloviškiai–Vajasiškis,15,2023-11-14,00:00:00,positive,1,88.6,normal,negative,0,,normal
+Paupynis,1703,Eržvilkas–Mosteikiai–Nemakščiai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Kalnujai,A1,Vilnius–Kaunas–Klaipėda,15,2023-11-14,00:00:00,positive,0,,normal,negative,0,,normal
+Kirtimai I,A19,Vilniaus pietinis aplinkkelis,15,2023-11-14,00:00:00,negative,265,85.83,normal,positive,389,85.23,normal
+Latava,175,Pagojė–Sedeikiai–Viešintos–Nociūnai,15,2023-11-14,00:00:00,positive,14,76.96,normal,negative,11,77.72,normal
+Žvirzdaliai,3206,Plungė–Medingėnai,15,2023-11-14,00:00:00,negative,4,63.25,normal,positive,2,79.75,normal
+Narezkai,214,Trakai–Senieji Trakai,16,2023-11-14,00:00:00,negative,25,65.2,normal,positive,20,65.81,normal
+Puskelniai,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,positive,157,93.96,normal,negative,207,83.93,normal
+Klovainių gatvė,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,negative,414,93.38,normal,positive,543,88.24,normal
+Skaidiškės,A3,Vilnius–Minskas,15,2023-11-14,00:00:00,negative,46,82.26,normal,positive,38,81.02,normal
+Naudžiai,187,Gižai–Pilviškiai,15,2023-11-14,00:00:00,negative,10,94.73,normal,positive,21,96.46,normal
+Kušliškiai,A5,Kaunas–Marijampolė–Suvalkai,15,2023-11-14,00:00:00,negative,0,,normal,positive,0,,normal
+Mikailiškis,116,Širvintos–Rimučiai–Kernavė–Dūkštos,15,2023-11-14,00:00:00,positive,9,91.18,normal,negative,11,92.15,normal
+Tartokas 2,A15,Vilnius–Lyda,14,2023-11-14,00:00:00,negative,13,59.38,slow,positive,9,56.49,slow
+Pasvalys,205,Pasvalio aplinkkelis,16,2023-11-14,00:00:00,positive,14,68.14,heavy,negative,12,76.48,heavy
