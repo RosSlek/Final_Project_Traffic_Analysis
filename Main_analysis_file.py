@@ -47,7 +47,6 @@ def chosen_roads():
 
 ############### Function To Create Chosen Roads Real Time Data CSV ###############
 def chosen_roads_real_time_data():
-
     if os.path.isfile('Road_info_real_time.csv'):
 
         df_rt = pd.read_csv('Road_info_real_time.csv')
@@ -58,7 +57,7 @@ def chosen_roads_real_time_data():
             selecting_road_rt = df_rt.loc[df_rt['Road_Name'] == i]
             chosen_roads_rt.append(selecting_road_rt)
 
-        df_chosen_roads_rt = pd.concat(chosen_roads_rt)
+        df_chosen_roads_rt = pd.concat(chosen_roads_rt).reset_index()
         df_chosen_roads_rt.to_csv('Chosen_roads_real_time.csv', index=False)
     else:
         print("Seems like you don`t have 'Road_info_real_time.csv' file yet. Would you like to create it now? Enter Y for yes and N for no: ")
@@ -66,6 +65,54 @@ def chosen_roads_real_time_data():
         if create_or_not == 'Y':
             scrape_road_info_real_time()
             print("File 'Road_info_real_time.csv' was created successfully!")
+        elif create_or_not == 'N':
+            print("File 'Road_info_real_time.csv' will not be created.")
+        else:
+            print("Wrong input! I`ll take it as a No.")
+
+# chosen_roads_real_time_data()
+
+############### Real Time conditions of the selected roads ###############
+def chosen_roads_real_time_data():
+    if os.path.isfile('Road_info_real_time.csv'):
+        df_rt = pd.read_csv('Road_info_real_time.csv')
+
+        roads_rt = chosen_roads()
+        chosen_roads_rt = []
+        for i in roads_rt:
+            selecting_road_rt = df_rt.loc[df_rt['Road_Name'] == i]
+            chosen_roads_rt.append(selecting_road_rt)
+
+        df_chosen_roads_rt = pd.concat(chosen_roads_rt)
+
+        plt.figure(figsize=(10, 5))
+        plt.bar(df_chosen_roads_rt['Road'], df_chosen_roads_rt['Air_Temperature'], color='gold')
+        plt.title('Average temperature of chosen roads real time')
+        plt.ylabel('Air temperature')
+        plt.xlabel('Road')
+        plt.show()
+
+        plt.figure(figsize=(10, 5))
+        plt.bar(df_chosen_roads_rt['Road'], df_chosen_roads_rt['Road_Surface_Temperature'], color='green')
+        plt.title('Average road surface temperature of chosen roads real time')
+        plt.ylabel('Road surface temperature')
+        plt.xlabel('Road')
+        plt.show()
+
+        plt.figure(figsize=(10, 5))
+        plt.bar(df_chosen_roads_rt['Road'], df_chosen_roads_rt['Wind_Speed'], color='firebrick')
+        plt.title('Average wind speed of chosen roads real time')
+        plt.ylabel('Wind speed')
+        plt.xlabel('Road')
+        plt.show()
+    else:
+        print(
+            "Seems like you don`t have 'Road_info_real_time.csv' file yet. Would you like to create it now? Enter Y for yes and N for no: ")
+        create_or_not = input()
+        if create_or_not == 'Y':
+            scrape_road_info_real_time()
+            print("File 'Road_info_real_time.csv' was created successfully!")
+            chosen_roads_real_time_data()
         elif create_or_not == 'N':
             print("File 'Road_info_real_time.csv' will not be created.")
         else:
@@ -104,10 +151,9 @@ def avg_road_info_from_all_collected_data():
 
         df_mean_of_all_data = pd.concat([mean_day_t_all_data, mean_day_wind_all_data, mean_day_road_surface_t], axis=1, join='inner')
         df_mean_of_all_data = df_mean_of_all_data[['Road_Name', 'Road', 'Air_Temperature', 'Road_Surface_Temperature', 'Wind_Speed']]
-        print(df_mean_of_all_data)
 
         plt.figure(figsize=(10,5))
-        plt.bar(df_mean_of_all_data['Road'], df_mean_of_all_data['Road_Surface_Temperature'], color='gold')
+        plt.bar(df_mean_of_all_data['Road'], df_mean_of_all_data['Air_Temperature'], color='gold')
         plt.title('Average temperature of chosen roads from all collected data')
         plt.ylabel('Air temperature')
         plt.xlabel('Road')
@@ -258,4 +304,39 @@ def scrape_road_traffic_intensity_real_time():
     general = pd.concat([df_info, df_negative, df_positive], axis=1)
     general.to_csv("Road_traffic_intensity_real_time.csv", index=False)
 
-scrape_road_traffic_intensity_real_time()
+# scrape_road_traffic_intensity_real_time()
+
+
+
+############### Meniu ###############
+def meniu():
+    print("--------------------Meniu--------------------")
+    print("1. Create a csv with real time traffic intensity data in Lithunia.")
+    print("2. Create a csv with real time information about roads condition.")
+    print("3. Information about the road conditions on the selected roads in real time.")
+    print("4. Information about the road conditions on the selected roads in all collected data.")
+    print("5. Information about the road conditions on the selected roads in all collected data by selected day.")
+    print("6. Exit ")
+# meniu()
+
+def meniu_controller():
+    while True:
+        meniu()
+        pasirinkimas = input("Chose your action (1-6): ")
+        if pasirinkimas == "1":
+            scrape_road_traffic_intensity_real_time()
+        elif pasirinkimas == "2":
+            scrape_road_info_real_time()
+        elif pasirinkimas == "3":
+            chosen_roads_real_time_data()
+        elif pasirinkimas == "4":
+            avg_road_info_from_all_collected_data()
+        elif pasirinkimas == "5":
+            avg_on_the_road_from_collected_data_by_day()
+        elif pasirinkimas == "6":
+            print("See you soon!")
+            break
+        else:
+            print("OOPS! Wrong choice! Please chose between 1 and 6")
+
+# meniu_controller()
