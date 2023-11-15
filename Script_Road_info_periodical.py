@@ -37,7 +37,7 @@ def script_info_periodially():
 
     ############### Saving Periodical Data As CSV ###############
 
-    if os.path.isfile('Road_info_periodical.csv'):
+    if os.path.isfile('CSV/Road_info_periodical.csv'):
         df.to_csv("Road_info_periodical.csv", mode='a', index=False, header=False)
     else:
         df.to_csv("Road_info_periodical.csv", index=False, header=True)
