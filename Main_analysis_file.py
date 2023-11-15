@@ -2,8 +2,6 @@ import pandas as pd
 import requests
 import matplotlib.pyplot as plt
 import os.path
-
-############### Function To Scrape Road Info Real Time ###############
 def scrape_road_info_real_time():
 
     headers = {
@@ -36,7 +34,7 @@ def scrape_road_info_real_time():
 
     ############### Saving Real Time Data as CSV ###############
 
-    df.to_csv("Road_info_real_time.csv", index=False)
+    df.to_csv("CSV/Road_info_real_time.csv", index=False)
 
 # scrape_road_info_real_time()
 
@@ -47,9 +45,9 @@ def chosen_roads():
 
 ############### Function To Create Chosen Roads Real Time Data CSV ###############
 def chosen_roads_real_time_data():
-    if os.path.isfile('Road_info_real_time.csv'):
+    if os.path.isfile('CSV/Road_info_real_time.csv'):
 
-        df_rt = pd.read_csv('Road_info_real_time.csv')
+        df_rt = pd.read_csv('CSV/Road_info_real_time.csv')
 
         roads_rt = chosen_roads()
         chosen_roads_rt = []
@@ -58,7 +56,7 @@ def chosen_roads_real_time_data():
             chosen_roads_rt.append(selecting_road_rt)
 
         df_chosen_roads_rt = pd.concat(chosen_roads_rt).reset_index()
-        df_chosen_roads_rt.to_csv('Chosen_roads_real_time.csv', index=False)
+        df_chosen_roads_rt.to_csv('CSV/Chosen_roads_real_time.csv', index=False)
     else:
         print("Seems like you don`t have 'Road_info_real_time.csv' file yet. Would you like to create it now? Enter Y for yes and N for no: ")
         create_or_not = input()
@@ -74,8 +72,8 @@ def chosen_roads_real_time_data():
 
 ############### Real Time conditions of the selected roads ###############
 def chosen_roads_real_time_data():
-    if os.path.isfile('Road_info_real_time.csv'):
-        df_rt = pd.read_csv('Road_info_real_time.csv')
+    if os.path.isfile('CSV/Road_info_real_time.csv'):
+        df_rt = pd.read_csv('CSV/Road_info_real_time.csv')
 
         roads_rt = chosen_roads()
         chosen_roads_rt = []
@@ -122,8 +120,8 @@ def chosen_roads_real_time_data():
 
 ############### Function To Create Chosen Roads Periodical Data CSV ###############
 def chosen_roads_periodical_data():
-    if os.path.isfile('Road_info_periodical.csv'):
-        df_pd = pd.read_csv('Road_info_periodical.csv')
+    if os.path.isfile('CSV/Road_info_periodical.csv'):
+        df_pd = pd.read_csv('CSV/Road_info_periodical.csv')
 
         roads_pd = chosen_roads()
         chosen_roads_pd = []
@@ -132,7 +130,7 @@ def chosen_roads_periodical_data():
             chosen_roads_pd.append(selecting_road_pd)
 
         df_chosen_roads_pd = pd.concat(chosen_roads_pd).reset_index()
-        df_chosen_roads_pd.to_csv('Chosen_roads_periodical.csv', index=False)
+        df_chosen_roads_pd.to_csv('CSV/Chosen_roads_periodical.csv', index=False)
         print("File 'Chosen_roads_periodical.csv' was created successfully!")
     else:
         print("Sorry, you have not collected any periodical data yet! Try again after collecting some data with 'Script_Road_info_periodical'.")
@@ -141,8 +139,8 @@ def chosen_roads_periodical_data():
 
 ############### Averages From All Collected Data ###############
 def avg_road_info_from_all_collected_data():
-    if os.path.isfile('Chosen_roads_periodical.csv'):
-        df = pd.read_csv('Chosen_roads_periodical.csv')
+    if os.path.isfile('CSV/Chosen_roads_periodical.csv'):
+        df = pd.read_csv('CSV/Chosen_roads_periodical.csv')
 
         mean_day_t_all_data = df.groupby('Road_Name')['Air_Temperature'].mean().round(1).reset_index()
         mean_day_t_all_data.drop(columns=['Road_Name'], inplace=True)
@@ -188,8 +186,8 @@ def avg_road_info_from_all_collected_data():
 
 ############### Averages From All Collected Data By Selected Day ###############
 def avg_on_the_road_from_collected_data_by_day():
-    if os.path.isfile('Chosen_roads_periodical.csv'):
-        df_by_day = pd.read_csv('Chosen_roads_periodical.csv')
+    if os.path.isfile('CSV/Chosen_roads_periodical.csv'):
+        df_by_day = pd.read_csv('CSV/Chosen_roads_periodical.csv')
         try:
             df_by_day.Date = pd.to_datetime(df_by_day.Date)
             choice = pd.to_datetime(input('Input date in mm-dd-yyyy format: '))
@@ -302,7 +300,7 @@ def scrape_road_traffic_intensity_real_time():
     ############### Joining DataFrames ###############
 
     general = pd.concat([df_info, df_negative, df_positive], axis=1)
-    general.to_csv("Road_traffic_intensity_real_time.csv", index=False)
+    general.to_csv("CSV/Road_traffic_intensity_real_time.csv", index=False)
 
 # scrape_road_traffic_intensity_real_time()
 
@@ -353,7 +351,7 @@ def lietuvos_duomenu_scraping():
     df['Visi kelių eismo įvykiai'] = list(map(int, df['Visi kelių eismo įvykiai']))
 
     # print(df)
-    df.to_csv("Road_Accidents_LT_2023.csv", index=False)
+    df.to_csv("CSV/Road_Accidents_LT_2023.csv", index=False)
 
 
 # lietuvos_duomenu_scraping()
@@ -370,14 +368,10 @@ def oecd_data_scraping():
     }
     url = "https://stats.oecd.org/sdmx-json/data/DP_LIVE/.ROADACCID.DEATH.1000000HAB.A/OECD?json-lang=en&dimensionAtObservation=allDimensions&startPeriod=1970"
     page = requests.get(url, headers=headers)
-
     ilgis = len(page.json()["structure"]["dimensions"]["observation"][0]["values"])
-
     sarasiukas1 = []
     sarasiukas2 = []
     sarasiukas3 = []
-
-
     for i in range(ilgis):
         try:
             data1 = page.json()["structure"]["dimensions"]["observation"][0]["values"][i]["name"]
@@ -391,37 +385,28 @@ def oecd_data_scraping():
             sarasiukas2.append("ok")
             sarasiukas3.append("ok")
             continue
-
-
-
     data = {
         "Country": sarasiukas1,
         "Amount of accidents 2020": sarasiukas2,
         "Amount of accidents 2021": sarasiukas3
     }
-
-
     df = pd.DataFrame.from_dict(data, orient="index").transpose()
     df = df.loc[df["Amount of accidents 2021"] != "ok"].convert_dtypes().round(2)
     # print(df)
-
     countries = ['Lithuania', 'Switzerland', 'Poland', 'Germany', 'France', 'Belgium', 'Italy', 'Sweden']
     countries_from_list = []
     for i in countries:
         selecting_countries = df.loc[df['Country'] == i]
         countries_from_list.append(selecting_countries)
-
     df = pd.concat(countries_from_list).reset_index()
     df.to_csv('Sorted_EU_data.csv', index=False)
-
-
-# oecd_data_scraping()
+oecd_data_scraping()
 
 
 
 def lt_2023_grafikas():
-    if os.path.isfile('Road_Accidents_LT_2023.csv'):
-        lt_2023 = pd.read_csv('Road_Accidents_LT_2023.csv')
+    if os.path.isfile('CSV/Road_Accidents_LT_2023.csv'):
+        lt_2023 = pd.read_csv('CSV/Road_Accidents_LT_2023.csv')
 
         plt.figure(figsize=(15, 10))
         plt.plot(lt_2023['Month'], lt_2023['Visi kelių eismo įvykiai'], color="green")
@@ -447,7 +432,7 @@ def lt_2023_grafikas():
 
 
 def lietuvos_regionu_grafikas_22_23():
-    df = pd.read_csv("Road_Accidents_LT_22_23.csv")
+    df = pd.read_csv("CSV/Road_Accidents_LT_22_23.csv")
     df = df[df['Administracinė teritorija'].notna()]
 
     df["Year"] = df["Laikotarpis"].str.split(pat='M', n=0, expand=True)[0]
@@ -459,7 +444,7 @@ def lietuvos_regionu_grafikas_22_23():
 
     pasirinkimas = input("Please choose date to analyze (either 2022 or 2023): ")
 
-    # df.to_csv("Programiskai pakoreguotas failas.csv", index = False)
+    # df.to_csv("CSV/Programiskai pakoreguotas failas.csv", index = False)
     df = df.loc[df['Year'] == pasirinkimas]
     df = df.loc[df['Administracinė teritorija'] != 'Lietuvos Respublika']
     df = df.loc[df['Administracinė teritorija'] != 'Vidurio ir vakarų Lietuvos regionas']
@@ -471,7 +456,7 @@ def lietuvos_regionu_grafikas_22_23():
     # max = df["Reikšmė"].max()
 
     # print(df)
-    # df.to_csv("Programiskai pakoreguotas failas.csv", index=True)
+    # df.to_csv("CSV/Programiskai pakoreguotas failas.csv", index=True)
 
     def addlabels(x, y):
         for i in range(len(x)):
@@ -492,8 +477,8 @@ def lietuvos_regionu_grafikas_22_23():
 
 
 def europos_duomenys_20_21():
-    if os.path.isfile('Sorted_EU_data.csv'):
-        df = pd.read_csv('Sorted_EU_data.csv')
+    if os.path.isfile('CSV/Sorted_EU_data.csv'):
+        df = pd.read_csv('CSV/Sorted_EU_data.csv')
 
         def addlabels(x, y):
             for i in range(len(x)):
@@ -564,6 +549,6 @@ def meniu_controller():
         else:
             print("OOPS! Wrong choice! Please chose between 1 and 6")
 
-meniu_controller()
+# meniu_controller()
 
-####KOEMNTARASFDFDF
+DDDDDDDDDDDDDDDD
