@@ -4,7 +4,7 @@ import time
 import schedule
 import os.path
 
-############### Colecting Data Periodically ###############
+############### creating script to collect data periodically ###############
 def script_info_periodially():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0",
@@ -20,31 +20,36 @@ def script_info_periodially():
 
     data = page.json()
 
-    ############### DataFrame Clearance ###############
+    ############### creating DataFrame and cleaning ###############
 
     df = pd.DataFrame(data)
 
+    ##### changing date time from timestamp to a normal date and time format, adjusting time zone (+2hours) #####
+
     df['date'] = pd.to_datetime(df['date'], unit='ms')
     df['date'] = df['date'] + pd.Timedelta(hours=2)
-    # df['date'] = df['date'] - pd.Timedelta(minutes=50)
 
     df['Date'] = pd.to_datetime(df['date']).dt.date
     df['Time'] = pd.to_datetime(df['date']).dt.time
+
+    ##### dropping unnecessary columns and renaming them #####
 
     df.drop(columns=['color', 'importance', 'x', 'y', 'km', 'date'], inplace=True)
     df.rename(columns={'id': 'Measuring_Station_ID', 'name': 'Location', 'roadName': 'Road_Name', 'roadNr': 'Road', 'airTemperature': 'Air_Temperature', 'windDirection': 'Wind_Direction', 'windSpeed': 'Wind_Speed', 'precipitationType': 'Precipitation_Type', 'precipitationIntensity': 'Precipitation_Intensity', 'dewPoint': 'Dew_point', 'roadTemperature': 'Road_Surface_Temperature', 'surfaceCondition': 'Road_Surface_Condition', 'friction': 'Friction'}, inplace=True)
     df['Road_Name'] = df['Road_Name'].str.replace('*', '')
 
-    ############### Saving Periodical Data As CSV ###############
+    ############### Saving periodical data as new CSV or adding new data on the same if it exsists ###############
 
     if os.path.isfile('CSV/Road_info_periodical.csv'):
-        df.to_csv("Road_info_periodical.csv", mode='a', index=False, header=False)
+        df.to_csv("CSV/Road_info_periodical.csv", mode='a', index=False, header=False)
+        print("Data updated successfully!")
     else:
-        df.to_csv("Road_info_periodical.csv", index=False, header=True)
+        df.to_csv("CSV/Road_info_periodical.csv", index=False, header=True)
+        print("File Road_info_periodical was created successfully!")
 
 # script_info_periodially()
 
-############### Setting Schedule For Data Collecting ###############
+############### setting schedule to collect data every 6 hours and putting sleep timer for the same period ###############
 
 schedule.every().day.at("03:30").do(script_info_periodially)
 schedule.every().day.at("09:30").do(script_info_periodially)
@@ -53,6 +58,5 @@ schedule.every().day.at("21:30").do(script_info_periodially)
 
 while True:
     schedule.run_pending()
-    # time.sleep(21600)
-    time.sleep(60)
+    time.sleep(21600)
 
