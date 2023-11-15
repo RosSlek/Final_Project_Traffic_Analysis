@@ -3,8 +3,6 @@ import requests
 import matplotlib.pyplot as plt
 import os.path
 
-
-
 ############### Function To Scrape Road Info Real Time ###############
 def scrape_road_info_real_time():
 
@@ -568,4 +566,4 @@ def meniu_controller():
 
 meniu_controller()
 
-####KOEMNTARASFDFDF
+####KOEMNTARAS
