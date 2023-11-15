@@ -677,7 +677,7 @@ def meniu_controller():
         else:
             print("OOPS! Wrong choice! Please chose between 1 and 6")
 
-# meniu_controller()
+meniu_controller()
 
 
 
