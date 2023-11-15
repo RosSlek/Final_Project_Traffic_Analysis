@@ -2,7 +2,7 @@
 ## Details
 **Created by: [Rosvaldas Šlekys](https://github.com/RosSlek) and [Martynas Višnevskis](https://github.com/Samsungelis)**
 
-This is the final project in Vilnius Coding School 
+This is the final project in Vilnius Coding School. 
 
 Project theme: "Traffic intensity, road conditions and road accident analysis"
 
@@ -27,7 +27,7 @@ Pandas, MatplotLib, Requests, BeautifulSoup, Time, Schedule.
 #### •	Creating new CSV`s so it would be better to see, export data and less scrapping would be used.
 #### •	Creating visuals like graphs to see tendencies and more pleasing view of data.
 ## Conslusion
-We reached the goal of analysing data about road conditions and road accidents by creating a lot of functions for different purposes and made a meniu, so it would be easier to navigate and get only the needed information. We also have ability to refresh data on demand, easily access it as CSV format files and created a small application so this script could work on other computers.
+We reached the goal of analysing data about road conditions and road accidents by creating a lot of functions for different purposes and made a meniu, so it would be easier to navigate and get only the needed information. We also have ability to refresh data on demand, easily access it as CSV format files and created a small application so this script could be accessible on other computers.
 
 
 
