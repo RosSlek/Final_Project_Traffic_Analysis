@@ -27,7 +27,7 @@ def script_info_periodially():
     ##### changing date time from timestamp to a normal date and time format, adjusting time zone (+2hours) #####
 
     df['date'] = pd.to_datetime(df['date'], unit='ms')
-    df['date'] = df['date'] + pd.Timedelta(hours=1)
+    df['date'] = df['date'] + pd.Timedelta(hours=2)
 
     df['Date'] = pd.to_datetime(df['date']).dt.date
     df['Time'] = pd.to_datetime(df['date']).dt.time
