@@ -2,47 +2,32 @@
 ## Details
 **Created by: [Rosvaldas Šlekys](https://github.com/RosSlek) and [Martynas Višnevskis](https://github.com/Samsungelis)**
 
-This is the final project in Vilnius Coding School 
+This is the final project in Vilnius Coding School. 
 
 Project theme: "Traffic intensity, road conditions and road accident analysis"
 
-## The main goals of the work are several:
+## The main goals for this project were to:
+#### •	Get and analyze data of driving conditions in Lithuania.
+#### •	Get and analyze data about traffic intensity in Lithuania.
+#### •	Get and analyze data about road accidents.
 
-1. Gather the date related to traffic conditions, road accidents through channels such as: 
-- websites (using the JSON method)
-- complete CSV files
+## Main tools used to reach the goal:
+Pandas, MatplotLib, Requests, BeautifulSoup, Time, Schedule.
 
-2. Put in good order extracted data using Pandas library;
-3. Create charts using matplotlib library;
-4. Analyze the data through charts to see tendencies and not only raw data.
-5. Use knowledge gained during the lessons to implement menu functionality, so that a user could choose the options to execute from the provided list.
-6. Finally, using auto-py-to-exe application apply command window for easier execution of the program.
-
-
-## Main_analysis_file.py
-
-Used libraries: Pandas, MatplotLib, requests, os.path
-
-Steps: 
-
-1. Creating scraping functions from each channel. The fuctions contains and is not limited to:
-- JSON method
-- Pandas library to set the DataFrames and sort/filter/clear the data which is then appears into the newly made CSV format documents.
-2. Using mathematical functions: mean, round. Also, applying the functions in the favor of user, so he could select the period from which he wants to extract the data with its average values.
-3. Writing functions to create charts using matplotlib library.
-4. Creating menu functionality.
-
-
-## Main_analysis_file.exe
-
-Steps:
-
-1. Using Terminal window installing the application auto-py-to-exe:
-2. Testing the result for the final usage.
-
-# Conclusion
-
-
+## Main steps taken to  get data:
+#### •	Function to scrape free proxy list.
+#### •	Function to scrape JSON format page to get real time data about driving conditions, put information to DataFrames.
+#### •	Function to scrape JSON format page to get real time data about traffic intensity, put information to DataFrames.
+#### •	Function to scrape real time data periodically and save it to CSV.
+#### •	Functions to scrape data about road accidents.
+## Main steps taken to analyse data:
+#### •	Cleaning data from unnecessary information, checking for errors and removing them.
+#### •	Putting data to DataFrames, reshaping it, grouping and adjusting so it would be easier to understand.
+#### •	Calculating averages, comparing data of different countries.
+#### •	Creating new CSV`s so it would be better to see, export data and less scrapping would be used.
+#### •	Creating visuals like graphs to see tendencies and more pleasing view of data.
+## Conslusion
+We reached the goal of analysing data about road conditions and road accidents by creating a lot of functions for different purposes and made a meniu, so it would be easier to navigate and get only the needed information. We also have ability to refresh data on demand, easily access it as CSV format files and created a small application so this script could be accessible on other computers.
 
 
 
