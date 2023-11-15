@@ -566,4 +566,5 @@ def meniu_controller():
 
 meniu_controller()
 
-####KOEMNTARASfhgdfgdfhfgh
+####KOEMNTARASfhgdfgdfhfghthgfgfhfghfghfgh
+# bdbfgb
