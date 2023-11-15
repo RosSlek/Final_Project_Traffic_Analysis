@@ -418,7 +418,7 @@ def lietuvos_duomenu_scraping():
     sarasas2 = []
     sarasas3 = []
 
-#Writing for loop to extract data from the source and appending it to previuosly created lists above
+# Writing for loop to extract data from the source and appending it to previuosly created lists above
     for i in range(ilgis):
         data1 = page.json()["data"]["itemMatrix"][i][0]["value"]
         data2 = page.json()["data"]["itemMatrix"][i][1]["value"]
@@ -428,7 +428,7 @@ def lietuvos_duomenu_scraping():
         sarasas3.append(laikotarpis)
         # print(data1, data2, laikotarpis)
 
-#Creating dictionary to append to DataFrame later on in 349 line
+# Creating dictionary to append to DataFrame later on in 349 line
     data = {
         "Old_Date": sarasas3,
         "Visi kelių eismo įvykiai": sarasas1,
@@ -437,19 +437,19 @@ def lietuvos_duomenu_scraping():
 
     df = pd.DataFrame(data)
 
-#Formating DataFrame to desirable result. Splitting one collumn od data in to two, so that there would appear year and month in seperate columns
+# Formating DataFrame to desirable result. Splitting one collumn od data in to two, so that there would appear year and month in seperate columns
     df["Year"] = df["Old_Date"].str.split(pat='M', n=0, expand=True)[0]
     df["Month"] = df["Old_Date"].str.split(pat='M', n=0, expand=True)[1]
     df.drop(columns=['Old_Date'], inplace=True)
 
-#Reindexing columns as well as filtering only year 2023 as well as moderarating collumn ['Visi kelių eismo įvykiai'] in order to avoid error in Run window using 'list(map(int)' method
+# Reindexing columns as well as filtering only year 2023 as well as moderarating collumn ['Visi kelių eismo įvykiai'] in order to avoid error in Run window using 'list(map(int)' method
     df = df.reindex(columns=['Year', 'Month', 'Visi kelių eismo įvykiai', 'Dėl neblaivių vairuotojų kaltės'])
     df = df.loc[df["Year"] == "2023"]
     df['Visi kelių eismo įvykiai'] = list(map(int, df['Visi kelių eismo įvykiai']))
 
     # print(df)
 
-#Saving DataFrame to CSV in order to use the file in the following analysis and not scraping the website everytime the data is needed.
+# Saving DataFrame to CSV in order to use the file in the following analysis and not scraping the website everytime the data is needed.
     df.to_csv("CSV/Road_Accidents_LT_2023.csv", index=False)
 
 
@@ -499,16 +499,16 @@ def oecd_data_scraping():
         "Amount of accidents 2021": sarasiukas3
     }
 
-#Setting the function 'orient' to ensure that row in the right side of the table is not an index value as well as transposing DataFrame
+# Setting the function 'orient' to ensure that row in the right side of the table is not an index value as well as transposing DataFrame
     df = pd.DataFrame.from_dict(data, orient="index").transpose()
-#Using .convert_dtypes() method to allow rounding of the values in the collumn "Amount of accidents 2021"
+# Using .convert_dtypes() method to allow rounding of the values in the collumn "Amount of accidents 2021"
     df = df.loc[df["Amount of accidents 2021"] != "ok"].convert_dtypes().round(2)
     # print(df)
 
-#Selecting countries from all data list, in other words filtered relevant data
+# Selecting countries from all data list, in other words filtered relevant data
     countries = ['Lithuania', 'Switzerland', 'Poland', 'Germany', 'France', 'Belgium', 'Italy', 'Sweden']
 
-#Creating list of selected countries in order to run for loop and get relevant data table with only selected countries
+# Creating list of selected countries in order to run for loop and get relevant data table with only selected countries
     countries_from_list = []
 
 # Writing for loop to extract data from the DataFrame above (with all countries in the table) and appending it to list with only selected countries
@@ -524,7 +524,7 @@ def oecd_data_scraping():
 # oecd_data_scraping()
 
 
-#Creating a chart for Road Accidents Amount in Lithuania per month during 2023
+# Creating a chart for Road Accidents Amount in Lithuania per month during 2023
 def lt_2023_grafikas():
     if os.path.isfile('CSV/Road_Accidents_LT_2023.csv'):
         lt_2023 = pd.read_csv('CSV/Road_Accidents_LT_2023.csv')
@@ -535,7 +535,7 @@ def lt_2023_grafikas():
         plt.ylabel('Amount')
         plt.title(f"Road Accidents' amount per month during 2023 in Lithuania ")
         plt.show()
-#Setting options to choose from if there is no scrapped and saved CSV file in order to create one and then extract needed data
+# Setting options to choose from if there is no scrapped and saved CSV file in order to create one and then extract needed data
     else:
         print("Seems like you don`t have 'Road_Accidents_LT_2023.csv' file yet. Would you like to create it now? Enter Y for yes and N for no: ")
         create_or_not = input()
@@ -552,7 +552,7 @@ def lt_2023_grafikas():
 # lt_2023_grafikas()
 
 
-#Creating a chart for Road Accidents Amount in Lithuania per region and per month during 2022 or 2023
+# Creating a chart for Road Accidents Amount in Lithuania per region and per month during 2022 or 2023
 def lietuvos_regionu_grafikas_22_23():
     df = pd.read_csv("CSV/Road_Accidents_LT_22_23.csv")
     df = df[df['Administracinė teritorija'].notna()]
@@ -564,11 +564,11 @@ def lietuvos_regionu_grafikas_22_23():
 
     df = df.reindex(columns=['Year', 'Month', 'Administracinė teritorija', 'Reikšmė'])
 
-#Here you can choose the year as the DataFrame contains values from 2022 or 2023
+# Here you can choose the year as the DataFrame contains values from 2022 or 2023
     pasirinkimas = input("Please choose date to analyze (either 2022 or 2023): ")
 
     # df.to_csv("CSV/Programiskai pakoreguotas failas.csv", index = False)
-#Filtering and sorting data to extract only needed and without logical conflicts
+# Filtering and sorting data to extract only needed and without logical conflicts
     df = df.loc[df['Year'] == pasirinkimas]
     df = df.loc[df['Administracinė teritorija'] != 'Lietuvos Respublika']
     df = df.loc[df['Administracinė teritorija'] != 'Vidurio ir vakarų Lietuvos regionas']
@@ -582,7 +582,7 @@ def lietuvos_regionu_grafikas_22_23():
     # print(df)
     # df.to_csv("CSV/Programiskai pakoreguotas failas.csv", index=True)
 
-#Adding labels to chart bars within addLabels function
+# Adding labels to chart bars within addLabels function
     def addlabels(x, y):
         for i in range(len(x)):
             plt.text(i, y[i], y[i], ha='center')
@@ -600,12 +600,12 @@ def lietuvos_regionu_grafikas_22_23():
 
 
 
-#Creating a chart for deathly Road Accidents Amount in selected EU countries during 2021
+# Creating a chart for deathly Road Accidents Amount in selected EU countries during 2021
 def europos_duomenys_20_21():
     if os.path.isfile('CSV/Sorted_EU_data.csv'):
         df = pd.read_csv('CSV/Sorted_EU_data.csv')
 
-#Adding labels to the bars of the chart
+# Adding labels to the bars of the chart
         def addlabels(x, y):
             for i in range(len(x)):
                 plt.text(i, y[i], y[i], ha='center')
@@ -675,7 +675,7 @@ def meniu_controller():
             print("See you soon!")
             break
         else:
-            print("OOPS! Wrong choice! Please chose between 1 and 6")
+            print("OOPS! Wrong choice! Please choose between 1 and 9")
 
 meniu_controller()
 
