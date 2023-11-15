@@ -108,27 +108,18 @@ def oecd_data_scraping():
 
     df = pd.DataFrame.from_dict(data, orient="index").transpose()
     df = df.loc[df["Amount of accidents 2021"] != "ok"].convert_dtypes().round(2)
-    print(df)
-    df.to_csv("xxEuropos duomenys.csv", index=True)
+    # print(df)
 
+    countries = ['Lithuania', 'Switzerland', 'Poland', 'Germany', 'France', 'Belgium', 'Italy', 'Sweden']
+    countries_from_list = []
+    for i in countries:
+        selecting_countries = df.loc[df['Country'] == i]
+        countries_from_list.append(selecting_countries)
+
+    df = pd.concat(countries_from_list).reset_index()
+    df.to_csv('Surusiuoti Europos duomenys.csv', index=False)
 
 # oecd_data_scraping()
-
-
-
-def europos_duomenu_surusiavimas():
-    df_pd = pd.read_csv('xxEuropos duomenys.csv')
-
-    roads_pd = ['Lithuania', 'Switzerland', 'Poland', 'Germany', 'France', 'Belgium', 'Italy', 'Sweden']
-    important_roads_pd = []
-    for i in roads_pd:
-        selecting_road_pd = df_pd.loc[df_pd['Country'] == i]
-        important_roads_pd.append(selecting_road_pd)
-
-    df_important_roads_pd = pd.concat(important_roads_pd).reset_index()
-    df_important_roads_pd.to_csv('Surusiuoti Europos duomenys.csv', index=False)
-
-# europos_duomenu_surusiavimas()
 
 
 
@@ -136,7 +127,7 @@ def europos_duomenu_surusiavimas():
 
 
 def lietuvos_regionu_data():
-    df = pd.read_csv("LT duomenys 22-23.csv")
+    df = pd.read_csv("Road_Accidents_LT_22_23.csv")
     df = df[df['Administracinė teritorija'].notna()]
 
     df["Year"] = df["Laikotarpis"].str.split(pat='M', n=0, expand=True)[0]

@@ -24,13 +24,13 @@ def lt_2023_grafikas():
     # addlabels(lt_2023['Month'], lt_2023['Visi kelių eismo įvykiai'])
     plt.show()
 
-lt_2023_grafikas()
+# lt_2023_grafikas()
 
 
 def lietuvos_regionu_grafikas_22_23():
     lietuvos_regionu_data()
-
-lietuvos_regionu_grafikas_22_23()
+#
+# lietuvos_regionu_grafikas_22_23()
 
 
 def europos_duomenys_20_21():
@@ -47,7 +47,7 @@ def europos_duomenys_20_21():
     addlabels(df['Country'], df['Amount of accidents 2021'])
     plt.show()
 
-europos_duomenys_20_21()
+# europos_duomenys_20_21()
 
 
 
