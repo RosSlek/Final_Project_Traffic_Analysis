@@ -467,7 +467,9 @@ def oecd_data_scraping():
         'cookie': '_ga=GA1.2.1272715160.1699462284; _gid=GA1.2.1647336826.1699462284; _ga_E8WJ6X0RYN=GS1.2.1699471615.3.0.1699471615.60.0.0; _ga_162SQ74LLR=GS1.2.1699471697.2.1.1699471698.0.0.0'
     }
     url = "https://stats.oecd.org/sdmx-json/data/DP_LIVE/.ROADACCID.DEATH.1000000HAB.A/OECD?json-lang=en&dimensionAtObservation=allDimensions&startPeriod=1970"
+
     page = requests.get(url, headers=headers)
+
 
 # Setting a variable to declare the lenght of the rows in data table
     ilgis = len(page.json()["structure"]["dimensions"]["observation"][0]["values"])
@@ -675,7 +677,7 @@ def meniu_controller():
             print("See you soon!")
             break
         else:
-            print("OOPS! Wrong choice! Please chose between 1 and 6")
+            print("OOPS! Wrong choice! Please choose between 1 and 9")
 
 meniu_controller()
 
