@@ -26,7 +26,7 @@ Pandas, MatplotLib, Requests, BeautifulSoup, Time, Schedule.
 #### •	Creating new CSV`s so it would be better to see, export data and less scrapping would be used.
 #### •	Creating visuals like graphs to see tendencies and more pleasing view of data.
 ## Conslusion
-We reached the goal of analysing data about road conditions and road accidents by creating a lot of functions for different purposes and made a meniu, so it would be easier to navigate and get only the needed information. We also have ability to refresh data on demand, easily access it as CSV format files and created a small application so this script could be accessible on other computers.
+We reached the goal of analysing data about road conditions and road accidents by creating a lot of functions for different purposes and made a meniu, so it would be easier to navigate and get only the needed information. We also have ability to refresh data on demand, easily access it as CSV format files and created a small [application](https://www.dropbox.com/scl/fi/rj9j3cq1ykiclp997l5d6/Traffic_analysis_main.rar?rlkey=e33hrjlwxu5zk2sdf4sajkuh0&dl=0) so this script could be accessible on other computers.
 
 
 
