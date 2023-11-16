@@ -16,8 +16,7 @@ Pandas, MatplotLib, Requests, BeautifulSoup, Time, Schedule.
 
 ## Main steps taken to  get data:
 #### •	Function to scrape free proxy list.
-#### •	Function to scrape JSON format page to get real time data about driving conditions, put information to DataFrames.
-#### •	Function to scrape JSON format page to get real time data about traffic intensity, put information to DataFrames.
+#### •	Function to scrape JSON format page to get real time data about driving conditions, traffic intensity put information to DataFrames.
 #### •	Function to scrape real time data periodically and save it to CSV.
 #### •	Functions to scrape data about road accidents.
 ## Main steps taken to analyse data:
